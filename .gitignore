@@ -1,0 +1,36 @@
+# Ignore compiled Go binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore vendor directories
+vendor/
+
+# Ignore node modules
+node_modules/
+
+# Ignore build artifacts and directories
+/dist/
+/build/
+/public/bundle.js
+/public/bundle.js.map
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE specific files
+.idea/
+.vscode/
+
+# Ignore Wails generated files
+frontend/dist/
+backend/build/
+
+# Ignore environment specific files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
