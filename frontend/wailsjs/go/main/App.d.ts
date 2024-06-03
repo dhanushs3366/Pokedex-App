@@ -6,3 +6,5 @@ export function GetPokemonImage(arg1:Array<number>):Promise<string>;
 export function GetPokemonName(arg1:number,arg2:string):Promise<string>;
 
 export function Greet(arg1:string):Promise<string>;
+
+export function TakePic():Promise<string>;

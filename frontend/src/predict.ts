@@ -27,7 +27,3 @@ export async function imageToTensor(imageTag:HTMLImageElement) :Promise<tf.Tenso
 
     return finalTensor
 }
-
-export function getPokemonName(pokemonId:number,pokemonFilePath:string){
-    
-}

@@ -8,6 +8,7 @@ import (
 	"image"
 	"image/png"
 	"os"
+	"os/exec"
 )
 
 // App struct
@@ -71,6 +72,17 @@ func (a *App) GetPokemonName(pokemonId int, pokemonDetails string) string {
 	}
 	return pokemon
 
+}
+
+func (a *App) TakePic() string {
+
+	cmd := exec.Command("fswebcam", "--no-banner", "frontend/src/assets/images/camera-feed/pokemon.jpg")
+	output, err := cmd.CombinedOutput()
+	if err != nil {
+		return err.Error()
+
+	}
+	return string(output)
 }
 
 //on shutdown remove the pokemon.png
