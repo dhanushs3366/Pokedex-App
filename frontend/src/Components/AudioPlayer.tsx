@@ -8,7 +8,7 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({ audioSrc }) => {
     return (
         <div className="AudioPlayer">
             <h2>Play Wav Audio</h2>
-            <audio src={audioSrc} controls autoPlay></audio>
+            <audio src={audioSrc} controls ></audio>
         </div>
     );
 };
