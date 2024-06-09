@@ -38,3 +38,6 @@ frontend/src/py/models/pokedex_saved_model/
 
 
 frontend/src/py/pokedex-venv
+
+# temp files
+dependencies.txt

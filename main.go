@@ -36,7 +36,7 @@ func (h *FileLoader) ServeHTTP(res http.ResponseWriter, req *http.Request) {
 	res.Write(fileData)
 }
 
-func main() {
+func main1() {
 	// Create an instance of the app structure
 	app := NewApp()
 

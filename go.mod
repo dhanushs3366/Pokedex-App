@@ -6,7 +6,10 @@ toolchain go1.22.1
 
 // replace github.com/wailsapp/wails/v2 v2.8.2 => /home/munke/go/pkg/mod
 
-require github.com/wailsapp/wails/v2 v2.8.2
+require (
+	github.com/joho/godotenv v1.5.1
+	github.com/wailsapp/wails/v2 v2.8.2
+)
 
 require (
 	github.com/bep/debounce v1.2.1 // indirect
