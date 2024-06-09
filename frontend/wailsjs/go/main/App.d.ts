@@ -7,4 +7,6 @@ export function GetPokemonName(arg1:number,arg2:string):Promise<string>;
 
 export function Greet(arg1:string):Promise<string>;
 
+export function TTS(arg1:string):Promise<boolean>;
+
 export function TakePic():Promise<string>;

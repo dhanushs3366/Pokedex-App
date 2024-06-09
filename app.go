@@ -7,8 +7,10 @@ import (
 	"fmt"
 	"image"
 	"image/png"
+	"net/http"
 	"os"
 	"os/exec"
+	"pokedex/backend"
 )
 
 // App struct
@@ -83,6 +85,18 @@ func (a *App) TakePic() string {
 
 	}
 	return string(output)
+}
+
+func (a *App) TTS(pokemonName string) bool {
+	client := &backend.Api{Client: &http.Client{}}
+
+	text, err := backend.GetPokemonDescription(pokemonName)
+	if err != nil {
+		return false
+	}
+
+	err = client.GetPokedexVoice(text)
+	return err == nil
 }
 
 //on shutdown remove the pokemon.png

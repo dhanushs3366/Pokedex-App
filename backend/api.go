@@ -33,7 +33,6 @@ type TTSResponse struct {
 	StageProgress float64 `json:"stage_progress"`
 }
 
-// func (a *Api) CloneVoice(){}
 func (a *Api) GetPokedexVoice(text string) error {
 	PLAYHT_UID := os.Getenv("PLAYHT_UID")
 	PLAYHT_AUTH_KEY := os.Getenv("PLAYHT_AUTH_KEY")
@@ -68,7 +67,7 @@ func (a *Api) GetPokedexVoice(text string) error {
 	}
 	defer res.Body.Close()
 
-	err = a.downloadWavFile(res.Body, "frontend")
+	err = a.downloadWavFile(res.Body, "frontend/src/assets/pokemons")
 	if err != nil {
 		return err
 	}
