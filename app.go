@@ -99,6 +99,30 @@ func (a *App) TTS(pokemonName string) bool {
 	return err == nil
 }
 
+func (a *App) GetPokemonNameForGuess(id int) string {
+	pokemonName, err := backend.GetPokemonName(id)
+	if err != nil {
+		return err.Error()
+	}
+	return pokemonName
+}
+
+func (a *App) GetPokemonId(pokemonName string) int {
+	pokemonId, err := backend.GetPokemonId(pokemonName)
+	if err != nil {
+		return -1
+	}
+	return pokemonId
+}
+
+func (a *App) GetOptions(correctId int) []string {
+	options, err := backend.GetOptions(correctId)
+	if err != nil {
+		return nil
+	}
+	return options
+}
+
 //on shutdown remove the pokemon.png
 
 // on startup check if venv is created and if not create it and source it using a bash script
