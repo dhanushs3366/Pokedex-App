@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { GetOptions, GetPokemonNameForGuess } from '../../wailsjs/go/main/App';
+import "../css/global.css"
 import "../css/PokeGuess.css"
 
 
@@ -87,7 +88,7 @@ function PokeGuess() {
 
     return (
         <div>
-            <h1>{question}</h1>
+            <h1 className='text-3xl font-bold underline' >{question}</h1>
             <div className="images">
                 <div className="masked-img">
                     {maskedSrc && <img src={maskedSrc} alt="" />}
@@ -112,8 +113,8 @@ function PokeGuess() {
                 ))}
             </ul>
             <div className="buttons">
-                <button onClick={handleSubmit}>Submit</button>
-                <button onClick={handleRetakeQuiz}>{attempted ? 'Retake Quiz' : 'Refresh'}</button>
+                <button className='dark:md:hover:bg-fuchsia-600 ' onClick={handleSubmit}>Submit</button>
+                <button className='dark:md:hover:bg-fuchsia-600 ' onClick={handleRetakeQuiz}>{attempted ? 'Retake Quiz' : 'Refresh'}</button>
             </div>
             {feedback && <p className="feedback">{feedback}</p>}
         </div>

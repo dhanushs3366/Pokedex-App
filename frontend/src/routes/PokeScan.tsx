@@ -11,9 +11,17 @@ function PokeScan(){
     const [hasPhoto,setHasPhoto]=useState<boolean>(false)
     const [TTSStatus,setTTSStatus]=useState<boolean>(false)
     const [audioSrc,setAudioSrc]=useState<string>("frontend/src/assets/pokemons/output.wav")
-
+    const [playAnimation,setPlayAnimation]=useState<boolean>(false)
+    
+    
     const [intervalId,setIntervalId]=useState<number | null | NodeJS.Timeout>(null)
 
+    useEffect(()=>{
+        if(TTSStatus){
+            setPlayAnimation(true)
+            //play the audio using the go exec
+        }
+    },[TTSStatus])
 
     const getPredictions=async function(){
         if(!hasPhoto){

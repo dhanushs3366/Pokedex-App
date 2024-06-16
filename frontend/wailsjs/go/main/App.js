@@ -26,6 +26,10 @@ export function Greet(arg1) {
   return window['go']['main']['App']['Greet'](arg1);
 }
 
+export function PlayTTS() {
+  return window['go']['main']['App']['PlayTTS']();
+}
+
 export function TTS(arg1) {
   return window['go']['main']['App']['TTS'](arg1);
 }

@@ -123,6 +123,14 @@ func (a *App) GetOptions(correctId int) []string {
 	return options
 }
 
+func (a *App) PlayTTS() string {
+	err := backend.PlayTTS()
+	if err != nil {
+		return err.Error()
+	}
+	return ""
+}
+
 //on shutdown remove the pokemon.png
 
 // on startup check if venv is created and if not create it and source it using a bash script

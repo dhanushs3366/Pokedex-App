@@ -3,8 +3,10 @@ package backend
 import (
 	"encoding/json"
 	"errors"
+	"log"
 	"math/rand"
 	"os"
+	"os/exec"
 	"time"
 )
 
@@ -15,6 +17,7 @@ type PokemonDescription struct {
 }
 
 const JSON_PATH = "frontend/src/assets/pokemons/pokemon.json"
+const TTS_WAV_PATH = "frontend/src/assets/pokemons/output.wav"
 
 func loadPokemons(filePath string) ([]PokemonDescription, error) {
 	fileData, err := os.ReadFile(filePath)
@@ -108,4 +111,13 @@ func GetOptions(correctId int) ([]string, error) {
 	})
 
 	return options[:], nil
+}
+
+func PlayTTS() error {
+	cmd := exec.Command("gst-launch-1.0", "filesrc", "location="+TTS_WAV_PATH, "!", "wavparse", "!", "audioconvert", "!", "autoaudiosink")
+	if err := cmd.Run(); err != nil {
+		log.Fatal(err)
+		return err
+	}
+	return nil
 }
