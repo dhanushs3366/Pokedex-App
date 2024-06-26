@@ -13,7 +13,7 @@ const links = [
 
 function Home() {
   return (
-    <div className="HomePage grid grid-cols-1 sm:grid-cols-2 gap-3 w-[800px] mx-auto p-4">
+    <div className="HomePage grid grid-cols-1 sm:grid-cols-2 gap-3 w-[80%] mx-auto p-4">
       {links.map((link, index) => (
         <Link 
           key={index} 

@@ -3,20 +3,9 @@
 @tailwind utilities;
 
 
-
 @font-face {
     font-family: "8bit-bold";
-    src: url("/frontend/src/assets/fonts/8bit-bold.woff2"),local("/frontend/src/assets/fonts/8bit-bold.woff2"),format("woff2");
-    font-weight: normal;
-    font-style: normal;
-}
-
-
-@font-face {
-    font-family: "8bit";
-    src: url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'), local("/frontend/src/assets/fonts/8bit.ttf"),format("truetype");
-    font-weight: normal;
-    font-style: normal;
+    src: url("/assets/fonts/8bit-bold.woff2") format("woff2");
 }
 
 .menu-icons{
@@ -64,4 +53,10 @@
 
 .masked-img img, .pokemon-img img {
     max-width: 100px; /* Adjust as needed */
+}
+
+
+.guess-images{
+    width: auto;
+    height: "poke-guess";
 }

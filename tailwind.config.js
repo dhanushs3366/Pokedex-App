@@ -5,7 +5,9 @@ module.exports = {
     extend: {
       spacing:{
         "200px":"200px",
-        "poke-guess":"150px"
+        "poke-guess":"200px",
+        "poke-guess-border":"250px",
+        "poke-guess-frame":"300px"
       },
       scale: {
         104: "1.04",
@@ -33,8 +35,7 @@ module.exports = {
         "rpi-wd": "1024px",
       },
       fontFamily: {
-        "sans": ["8bit-bold", "sans-serif"],
-        "8bit": ["Press Start 2P", "sans-serif"],
+        "8bit-bold":["8bit-bold","ui-sans-serif"]
       },
     },
   },

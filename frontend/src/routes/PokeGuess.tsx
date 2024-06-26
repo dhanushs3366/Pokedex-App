@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { GetOptions, GetPokemonNameForGuess } from "../../wailsjs/go/main/App";
 import "../css/global.css";
-import "../css/PokeGuess.css";
+import PokemonViewer from "../Components/PokemonViewer";
+import PokemonTypes from "../enums/PokemonTypes";
 
 function PokeGuess() {
   const MIN_POKEMON_ID = 1;
@@ -67,6 +68,10 @@ function PokeGuess() {
     setSelectedOption(option);
   };
 
+  useEffect(() => {
+    handleSubmit();
+  }, [selectedOption]);
+
   const handleSubmit = () => {
     if (selectedOption === null) {
       setFeedback("Please select an option.");
@@ -89,48 +94,38 @@ function PokeGuess() {
   };
 
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">{question}</h1>
-      <div className="relative images mb-poke-guess">
-        <div className="absolute masked-img  " >
-          {maskedSrc && <img src={maskedSrc} alt="" />}
-        </div>
-        <div className="absolute pokemon-img ">
-          {imgSrc && hasPassed && <img src={imgSrc} alt="Pokemon" />}
-        </div>
+    <div className="mx-auto w-poke-guess-frame h-auto border-solid border-purple-500 border-2 ">
+      <div className="relative w-full h-poke-guess-frame  border-2 border-red-500">
+        {maskedSrc && <PokemonViewer canRender={true} imgSrc={maskedSrc} primaryPokemonType={PokemonTypes.FIRE}/>}
+        {imgSrc && <PokemonViewer canRender={true} imgSrc={imgSrc} primaryPokemonType={PokemonTypes.FIRE}/>}
       </div>
 
-        <ul className="">
-          {options.map((option, index) => (
-            <li key={index}>
-              <label>
-                <input
-                  type="radio"
-                  value={option}
-                  checked={selectedOption === option}
-                  onChange={() => handleOptionSelect(option)}
-                />
-                {option}
-              </label>
-            </li>
-          ))}
-        </ul>
-
-      <div className="buttons flex justify-between items-center">
+      <div className="mt-3">
+        {options.map((option, index) => (
+          <div
+            key={index}
+            className="w-full rounded-lg border-solid border-2 border-sky-500 px-3 py-1 mb-3 hover:shadow-lg hover:cursor-pointer text-center"
+            onClick={() => {
+              handleOptionSelect(option);
+            }}
+          >
+            <span
+              className="guess-option text-xl font-8bit-bold "
+              id="guess-option"
+            >
+              {option}
+            </span>
+          </div>
+        ))}
+      </div>
+      <div className="buttons flex justify-between items-center ">
         <button
-          className="text-white bg-gradient-to-br from-green-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 "
-          onClick={handleSubmit}
-        >
-          Submit
-        </button>
-        <button
-          className="text-white bg-main hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
+          className="text-white bg-main hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 mx-auto"
           onClick={handleRetakeQuiz}
         >
           {attempted ? "Retake Quiz" : "Refresh"}
         </button>
       </div>
-      {feedback && <p className="feedback">{feedback}</p>}
     </div>
   );
 }
