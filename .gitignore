@@ -33,11 +33,10 @@ backend/build/
 .env.development.local
 .env.test.local
 .env.production.local
-frontend/src/assets/pokemons/pokemon.png
+
+
 frontend/src/py/models/pokedex_saved_model/
 
-
-frontend/src/py/pokedex-venv
 
 # temp files
 dependencies.txt

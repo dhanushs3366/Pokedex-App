@@ -6,8 +6,8 @@ module.exports = {
       spacing:{
         "200px":"200px",
         "poke-guess":"200px",
-        "poke-guess-border":"250px",
-        "poke-guess-frame":"300px"
+        "poke-guess-header":"300px",
+        "poke-guess-frame":"250px"
       },
       scale: {
         104: "1.04",

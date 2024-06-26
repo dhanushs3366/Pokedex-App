@@ -1,11 +1,11 @@
+import React from "react";
+import PokemonTypes from "../enums/PokemonTypes";
 
-import React from 'react';
-import PokemonTypes from '../enums/PokemonTypes';
 
 interface PokemonViewerProps {
-  imgSrc: string ;
+  imgSrc: string;
   canRender: boolean;
-  primaryPokemonType:PokemonTypes
+  primaryPokemonType: PokemonTypes;
 }
 
 const PokemonViewer: React.FC<PokemonViewerProps> = ({ imgSrc, canRender }) => {
@@ -14,13 +14,20 @@ const PokemonViewer: React.FC<PokemonViewerProps> = ({ imgSrc, canRender }) => {
   }
 
   return (
-    // <div className="absolute top-0 left-0 w-full h-full border-2 border-yellow-500 p-3 rounded-lg">
-    //    <img className="h-poke-guess w-auto guess-images mx-auto" src={imgSrc} alt="Pokemon" />
-    // </div>
-    <div className="relative img-container bg-white w-full h-full z-3 flex flex-col items-center">
-        <div className="pokemon-type-header absolute  left-0 bottom-[150px]  rounded-full size-poke-guess-frame bg-[#ff9c54]">
-        </div>
+    
+    <div className="absolute img-container bg-white w-full h-full  rounded-xl flex flex-col items-center overflow-hidden">
+      <div className="pokemon-type-header absolute right bottom-[100px] rounded-full size-poke-guess-header bg-[#ff9c54] overflow-hidden">
+  <div className="relative">
+    <img className="absolute size-[150px] top-[150px] left-[75px] bg-gradient-to-r from-[#ff9c54] to-transparent" src="frontend/src/assets/images/pokemon-types/FIRE.png" alt="" />
+  </div>
+</div>
 
+      {/* <img
+          className="absolute top-[80px] h-[150px] w-auto guess-images mx-auto"
+          src={imgSrc}
+          alt="Pokemon"
+        /> */}
+      
     </div>
   );
 };

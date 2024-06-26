@@ -32,7 +32,6 @@ function PokeGuess() {
 
   const MASKED_IMG_PATH = "frontend/src/assets/images/masked_pokemons";
   const POKEMON_IMG_PATH = "frontend/src/assets/images/pokemon_images";
-  const question = "Who is that pokemon?";
 
   const initializeQuiz = async () => {
     const id = pickPokemonId();
@@ -94,8 +93,8 @@ function PokeGuess() {
   };
 
   return (
-    <div className="mx-auto w-poke-guess-frame h-auto border-solid border-purple-500 border-2 ">
-      <div className="relative w-full h-poke-guess-frame  border-2 border-red-500">
+    <div className="mx-auto w-poke-guess-frame h-auto  bg-white rounded-xl">
+      <div className="relative w-full h-poke-guess-frame  ">
         {maskedSrc && <PokemonViewer canRender={true} imgSrc={maskedSrc} primaryPokemonType={PokemonTypes.FIRE}/>}
         {imgSrc && <PokemonViewer canRender={true} imgSrc={imgSrc} primaryPokemonType={PokemonTypes.FIRE}/>}
       </div>
