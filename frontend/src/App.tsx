@@ -12,8 +12,7 @@ function App(){
            
             <HashRouter>
             <Navbar/>
-            <br />
-            <div className=''>
+            <div className='flex-1 mx-auto'>
                 <Routes>
                     <Route element={<Home/>} path="/"/>
                     <Route  element={<PokeUpload/>} path="/upload"/>

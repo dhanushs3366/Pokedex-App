@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@font-face {
+    font-family: "8bit-bold";
+    src: url("/frontend/src/assets/fonts/8bit-bold.woff2"),local("/frontend/src/assets/fonts/8bit-bold.woff2"),format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: "8bit";
+    src: url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'), local("/frontend/src/assets/fonts/8bit.ttf"),format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.menu-icons{
+    width: 25%;
+    height: auto;
+    position: absolute;
+}
+
+/* src/css/global.css */
+.hover\:shadow-lg:hover, .focus\:shadow-lg:focus {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-icons {
+    width: 50px;
+    height: auto;
+    margin: 0 10px; 
+    display: inline-block; 
+    vertical-align: middle; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.navbar-icons:hover, .navbar-icons:focus {
+    transform: scale(1.1); 
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1); 
+}
+
+
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.feedback {
+    margin-top: 10px;
+}
+
+.images {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.masked-img img, .pokemon-img img {
+    max-width: 100px; /* Adjust as needed */
+}
