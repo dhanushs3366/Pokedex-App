@@ -11,6 +11,8 @@ export function GetPokemonName(arg1:number,arg2:string):Promise<string>;
 
 export function GetPokemonNameForGuess(arg1:number):Promise<string>;
 
+export function GetPokemonTypes(arg1:number):Promise<Array<string>>;
+
 export function Greet(arg1:string):Promise<string>;
 
 export function PlayTTS():Promise<string>;

@@ -22,6 +22,10 @@ export function GetPokemonNameForGuess(arg1) {
   return window['go']['main']['App']['GetPokemonNameForGuess'](arg1);
 }
 
+export function GetPokemonTypes(arg1) {
+  return window['go']['main']['App']['GetPokemonTypes'](arg1);
+}
+
 export function Greet(arg1) {
   return window['go']['main']['App']['Greet'](arg1);
 }

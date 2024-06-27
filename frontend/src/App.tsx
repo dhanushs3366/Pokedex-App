@@ -8,7 +8,7 @@ import "./css/global.css"
 import Temp from './routes/temp';
 function App(){
     return (
-        <div className='px-3 mt-3'>
+        <div className='px-3 '>
            
             <HashRouter>
             <Navbar/>

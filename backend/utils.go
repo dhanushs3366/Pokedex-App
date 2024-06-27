@@ -11,9 +11,10 @@ import (
 )
 
 type PokemonDescription struct {
-	Id          int    `json:"id"`
-	Name        string `json:"name"`
-	Description string `json:"description"`
+	ID          int      `json:"id"`
+	Name        string   `json:"name"`
+	Description string   `json:"description"`
+	Types       []string `json:"types"`
 }
 
 const JSON_PATH = "frontend/src/assets/pokemons/pokemon.json"
@@ -54,14 +55,14 @@ func GetPokemonId(pokemonName string) (int, error) {
 
 	for i := 0; i < len(pokemons); i++ {
 		if pokemons[i].Name == pokemonName {
-			id := pokemons[i].Id
-			return id, nil
+			ID := pokemons[i].ID
+			return ID, nil
 		}
 	}
 	return -1, errors.New("provided pokemon is not in the json")
 }
 
-func GetPokemonName(id int) (string, error) {
+func GetPokemonName(pokemonID int) (string, error) {
 	pokemons, err := loadPokemons(JSON_PATH)
 	if err != nil {
 		return "", err
@@ -69,7 +70,7 @@ func GetPokemonName(id int) (string, error) {
 
 	for i := 0; i < len(pokemons); i++ {
 		pokemon := pokemons[i]
-		if pokemon.Id == id {
+		if pokemon.ID == pokemonID {
 			return pokemon.Name, nil
 		}
 	}
@@ -89,7 +90,7 @@ func GetOptions(correctId int) ([]string, error) {
 
 	var filteredPokemons []PokemonDescription
 	for _, pokemon := range pokemons {
-		if pokemon.Id != correctId {
+		if pokemon.ID != correctId {
 			filteredPokemons = append(filteredPokemons, pokemon)
 		}
 	}
@@ -120,4 +121,17 @@ func PlayTTS() error {
 		return err
 	}
 	return nil
+}
+
+func GetPokemonTypes(pokemonID int) ([]string, error) {
+	pokemons, err := loadPokemons(JSON_PATH)
+	if err != nil {
+		return nil, err
+	}
+	for _, pokemon := range pokemons {
+		if pokemon.ID == pokemonID {
+			return pokemon.Types, nil
+		}
+	}
+	return nil, errors.New("pokemon is not found")
 }

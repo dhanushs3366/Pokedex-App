@@ -40,3 +40,6 @@ frontend/src/py/models/pokedex_saved_model/
 
 # temp files
 dependencies.txt
+
+
+*.backup.*

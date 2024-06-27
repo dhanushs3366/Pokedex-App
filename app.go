@@ -131,6 +131,14 @@ func (a *App) PlayTTS() string {
 	return ""
 }
 
+func (a *App) GetPokemonTypes(pokemonID int) []string {
+	types, err := backend.GetPokemonTypes(pokemonID)
+	if err != nil {
+		return nil
+	}
+	return types
+}
+
 //on shutdown remove the pokemon.png
 
 // on startup check if venv is created and if not create it and source it using a bash script

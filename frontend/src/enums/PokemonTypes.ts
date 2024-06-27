@@ -38,7 +38,7 @@ enum PokemonTypes {
     DRAGON="DRAGON",
     DARK="DARK",
     STEEL="STEEL",
-    FARIY="FAIRY"
+    FAIRY="FAIRY"
 
 }
 
