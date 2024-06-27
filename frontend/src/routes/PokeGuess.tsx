@@ -93,10 +93,22 @@ function PokeGuess() {
   };
 
   return (
-    <div className="mx-auto w-poke-guess-frame h-auto  bg-white rounded-xl">
-      <div className="relative w-full h-poke-guess-frame  ">
-        {maskedSrc && <PokemonViewer canRender={true} imgSrc={maskedSrc} primaryPokemonType={PokemonTypes.FIRE}/>}
-        {imgSrc && <PokemonViewer canRender={true} imgSrc={imgSrc} primaryPokemonType={PokemonTypes.FIRE}/>}
+    <div className="mx-auto w-poke-guess-frame h-auto  rounded-xl quiz">
+      <div className="relative w-poke-guess-frame h-poke-guess-frame  quiz-picture-frame">
+        {maskedSrc && (
+          <PokemonViewer
+            canRender={true}
+            imgSrc={maskedSrc}
+            primaryPokemonType={PokemonTypes.FIRE}
+          />
+        )}
+        {imgSrc && (
+          <PokemonViewer
+            canRender={true}
+            imgSrc={imgSrc}
+            primaryPokemonType={PokemonTypes.FIRE}
+          />
+        )}
       </div>
 
       <div className="mt-3">
