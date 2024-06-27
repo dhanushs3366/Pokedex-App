@@ -12,7 +12,7 @@ import "../css/global.css";
 
 function Navbar() {
   return (
-    <nav className="p-3 flex justify-between items-center">
+    <nav className="relative p-3 w-full flex  justify-between  items-center z-50">
       <Link to="/" className="flex gap-2 items-center">
         <img
           src="frontend/src/assets/images/home/pokeball.png"

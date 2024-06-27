@@ -7,6 +7,9 @@ import {
 import "../css/global.css";
 import PokemonViewer from "../Components/PokemonViewer";
 import PokemonTypes from "../enums/PokemonTypes";
+import PrimaryColour from "../enums/PrimaryColour";
+import { getPrimaryColour } from "../utils/Colour";
+
 
 function PokeGuess() {
   const MIN_POKEMON_ID = 1;
@@ -32,6 +35,14 @@ function PokeGuess() {
 
     return types[0].toUpperCase() as PokemonTypes;
   }
+
+
+function setPrimaryColour(primaryColour:PrimaryColour){
+  return {
+    backgroundColor:primaryColour,
+
+  }
+}
 
   const [options, setOptions] = useState<string[]>([]);
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
@@ -112,8 +123,9 @@ function PokeGuess() {
   };
 
   return (
-    <div className="relative mx-auto w-poke-guess-frame h-auto  rounded-3xl quiz flex flex-col items-end bg-white ">
-      <div className="relative w-poke-guess-frame h-poke-guess-frame  quiz-picture-frame">
+    <div className="relative mx-auto w-poke-viewer-holder h-auto px-2 rounded-2xl quiz flex flex-col items-center " style={setPrimaryColour(getPrimaryColour(primaryType))}>
+      <div className="relative w-poke-guess-frame h-poke-guess-frame  quiz-picture-frame rounded-2xl overflow-hidden">
+        {/* <div className="relative w-poke-guess-frame h-poke-guess-frame border-black border-2"> */}
         {maskedSrc && (
           <PokemonViewer
             canRender={true}
@@ -125,19 +137,20 @@ function PokeGuess() {
           <div className="img absolute w-full h-full z-30 flex justify-center  items-end pb-3 pl-3">
             <img
               src={imgSrc}
-              className="absolute bottom-[10%]   w-auto h-[55%]"
+              className="absolute   w-auto h-[60%]"
               alt=""
             />
             {/* not using pokemonviewer component cuz the fading header will overlap with causing less fading so i just copy pasted the image to overcome that */}
           </div>
         )}
+        {/* </div> */}
       </div>
-
-      <div className="relative mt-3 w-full">
+      <div className="relative w-[95%] pt-[50px] bottom-[60px] -mb-[50px]  bg-white rounded-xl">
+      <div className="relative mt-3 w-full bg-white">
         {options.map((option, index) => (
           <div
             key={index}
-            className="w-full rounded-lg block px-3 py-1 mb-3 hover:shadow-lg hover:cursor-pointer text-center"
+            className="w-full rounded-lg px-3 py-1 mb-3 hover:shadow-lg hover:cursor-pointer text-center"
             onClick={() => {
               handleOptionSelect(option);
             }}
@@ -151,14 +164,10 @@ function PokeGuess() {
           </div>
         ))}
       </div>
-      <div className="relative buttons block  ">
-        <button
-          className="text-white bg-main hover:bg-slate-600  font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 mx-auto"
-          onClick={handleRetakeQuiz}
-        >
-          {attempted ? "Retake Quiz" : "Refresh"}
-        </button>
+      <div className="w-full  block px-3 py-1 mb-3 hover:shadow-lg hover:cursor-pointer text-center bg-white" onClick={handleRetakeQuiz}>
+        <span className="font-8bit-bold font-bold text-xl ">{attempted? "Next":"Refresh"}</span>
       </div>
+    </div>
     </div>
   );
 }

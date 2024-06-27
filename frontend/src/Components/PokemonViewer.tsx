@@ -14,7 +14,7 @@ interface PokemonViewerProps {
 function applyOpacity(hexColour: string) {
   const [r, g, b] = hexToRgb(hexColour);
   const gradientStyle = {
-    background: `linear-gradient(to bottom, rgba(${r},${g},${b}, 0.4) 0%, rgba(${r},${g},${b}, 0.7) 50%, rgba(${r},${g},${b}, 1) 100%)`,
+    background: `linear-gradient(to bottom, rgba(${r},${g},${b}, 0) 0%, rgba(${r},${g},${b}, 0.25) 25%, rgba(${r},${g},${b}, 0.8) 50%, rgba(${r},${g},${b}, 1) 100%)`,
   };
   return gradientStyle;
 }
@@ -36,8 +36,8 @@ const PokemonViewer: React.FC<PokemonViewerProps> = ({
   }
   const primaryColour=getPrimaryColour(primaryPokemonType)
   return (
-    <div className="img-header absolute w-full h-full bg-white flex justify-center items-center  rounded-2xl overflow-hidden">
-      <div className="img-type-bg absolute bottom-[30%]  w-[110%] h-[120%]  rounded-full flex justify-center items-center overflow-hidden" style={setPrimaryColour(primaryColour)}>
+    <div className="img-header absolute w-full h-full flex justify-center items-center   overflow-hidden " >
+      <div className="img-type-bg absolute bottom-[30%]  w-[100%] h-[120%] flex justify-center items-center overflow-hidden" style={setPrimaryColour(primaryColour)}>
         <div
           className="img-type-holder absolute size-[50%] top-[45%] rounded-full z-20"
           style={applyOpacity(primaryColour)}
@@ -52,7 +52,7 @@ const PokemonViewer: React.FC<PokemonViewerProps> = ({
       <div className="img absolute w-full h-full z-30 flex justify-center  items-end pb-3 pl-3">
         <img
           src={imgSrc}
-          className="absolute bottom-[10%]  w-auto h-[55%]"
+          className="absolute   w-auto h-[60%]"
           alt=""
         />
         {/* if u change anything here change PokeGuess.tsx under the this component usage, using unmasked image as a cover there both need to have same position to overlap correctly */}

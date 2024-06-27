@@ -8,7 +8,7 @@ enum PrimaryColour{
     GROUND="#d97746",
     PSYCHIC="#f97176",
     POISON="#ab6ac8",
-    NORMAL="#ab6ac8",
+    NORMAL="#9099a1",
     ICE="#74cec0",
     GRASS="#63bb5b",
     GHOST="#5269ac",

@@ -4,9 +4,12 @@ module.exports = {
   theme: {
     extend: {
       spacing:{
+        "10px":"2px",
         "200px":"200px",
         "poke-guess":"200px",
         "poke-guess-header":"300px",
+        "poke-viewer":"250px",
+        "poke-viewer-holder":"254px",
         "poke-guess-frame":"250px"
       },
       scale: {

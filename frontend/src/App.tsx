@@ -8,11 +8,11 @@ import "./css/global.css"
 import Temp from './routes/temp';
 function App(){
     return (
-        <div className='px-3 '>
+        <div className='relative px-3 bg-gray-400 h-full flex flex-col items-center'>
            
             <HashRouter>
             <Navbar/>
-            <div className='flex-1 mx-auto'>
+            <div className='relative flex-1 mx-auto z-10'>
                 <Routes>
                     <Route element={<Home/>} path="/"/>
                     <Route  element={<PokeUpload/>} path="/upload"/>
@@ -21,6 +21,7 @@ function App(){
                     <Route element={ <Temp/>} path="/temp"/>
                 </Routes>
             </div>
+            <div className="absolute w-full h-[400%] rounded-full bottom-[20%] bg-orange-400 z-0"></div>
             </HashRouter>
         </div>
     )
