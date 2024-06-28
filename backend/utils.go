@@ -17,6 +17,7 @@ type PokemonDescription struct {
 	Types       []string       `json:"types"`
 	Base        Base           `json:"base"`
 	Profile     PokemonProfile `json:"profile"`
+	Abilities   []string       `json:"abilities"`
 }
 
 type Base struct {

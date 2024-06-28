@@ -36,23 +36,23 @@ const PokemonViewer: React.FC<PokemonViewerProps> = ({
   }
   const primaryColour=getPrimaryColour(primaryPokemonType)
   return (
-    <div className="img-header absolute w-full h-full flex justify-center items-center   " >
+    <div className="img-header absolute w-full h-full flex justify-center items-center   rounded-xl" >
       <div className="img-type-bg absolute   w-full h-full flex justify-center items-center overflow-hidden "  style={setPrimaryColour(primaryColour)}>
         <div
-          className="img-type-holder pokemon-type-logo-shader absolute size-[50%] top-[10%] rounded-full z-20"
+          className="img-type-holder pokemon-type-logo-shader absolute size-[50%] top-[15%] rounded-full z-20 "
           style={applyOpacity(primaryColour)}
         ></div>
         {/* if the above div position changed change the image position too so it stacks on top of each other z-ind(div)> z-ind(img)*/}
         <img
-          className="pokemon-type-logo absolute w-[60%] h-auto poke-guess-img z-10 top-[10%]  "
+          className="pokemon-type-logo absolute w-pokemon-img h-auto poke-guess-img z-10 top-[15%]  "
           src={`frontend/src/assets/images/pokemon-types/${primaryPokemonType}.png`}
           alt=""
         />
       </div>
-      <div className="img absolute w-full h-full z-30 flex justify-center  items-end pb-3 pl-3">
+      <div className="img absolute w-full h-full z-30 flex justify-center bottom-[17%] items-end pb-3 pl-3">
         <img
           src={imgSrc}
-          className="absolute   w-auto h-[60%]"
+          className="absolute   w-auto h-[40%]"
           alt=""
         />
         {/* if u change anything here change PokeGuess.tsx under the this component usage, using unmasked image as a cover there both need to have same position to overlap correctly */}

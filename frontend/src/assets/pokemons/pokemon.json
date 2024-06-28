@@ -33,7 +33,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "overgrow",
+      "chlorophyll"
+    ]
   },
   {
     "id": 2,
@@ -69,7 +73,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "overgrow",
+      "chlorophyll"
+    ]
   },
   {
     "id": 3,
@@ -105,7 +113,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "overgrow",
+      "chlorophyll"
+    ]
   },
   {
     "id": 4,
@@ -140,7 +152,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "blaze",
+      "solar-power"
+    ]
   },
   {
     "id": 5,
@@ -175,7 +191,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "blaze",
+      "solar-power"
+    ]
   },
   {
     "id": 6,
@@ -211,7 +231,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "blaze",
+      "solar-power"
+    ]
   },
   {
     "id": 7,
@@ -246,7 +270,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "torrent",
+      "rain-dish"
+    ]
   },
   {
     "id": 8,
@@ -281,7 +309,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "torrent",
+      "rain-dish"
+    ]
   },
   {
     "id": 9,
@@ -316,7 +348,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "torrent",
+      "rain-dish"
+    ]
   },
   {
     "id": 10,
@@ -350,7 +386,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "shield-dust",
+      "run-away"
+    ]
   },
   {
     "id": 11,
@@ -380,7 +420,10 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "shed-skin"
+    ]
   },
   {
     "id": 12,
@@ -415,7 +458,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "compound-eyes",
+      "tinted-lens"
+    ]
   },
   {
     "id": 13,
@@ -450,7 +497,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "shield-dust",
+      "run-away"
+    ]
   },
   {
     "id": 14,
@@ -481,7 +532,10 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "shed-skin"
+    ]
   },
   {
     "id": 15,
@@ -516,7 +570,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "swarm",
+      "sniper"
+    ]
   },
   {
     "id": 16,
@@ -555,7 +613,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "keen-eye",
+      "tangled-feet",
+      "big-pecks"
+    ]
   },
   {
     "id": 17,
@@ -594,7 +657,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "keen-eye",
+      "tangled-feet",
+      "big-pecks"
+    ]
   },
   {
     "id": 18,
@@ -633,7 +701,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "keen-eye",
+      "tangled-feet",
+      "big-pecks"
+    ]
   },
   {
     "id": 19,
@@ -671,7 +744,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "run-away",
+      "guts",
+      "hustle"
+    ]
   },
   {
     "id": 20,
@@ -709,7 +787,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "run-away",
+      "guts",
+      "hustle"
+    ]
   },
   {
     "id": 21,
@@ -744,7 +827,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "keen-eye",
+      "sniper"
+    ]
   },
   {
     "id": 22,
@@ -779,7 +866,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "keen-eye",
+      "sniper"
+    ]
   },
   {
     "id": 23,
@@ -818,7 +909,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "intimidate",
+      "shed-skin",
+      "unnerve"
+    ]
   },
   {
     "id": 24,
@@ -857,7 +953,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "intimidate",
+      "shed-skin",
+      "unnerve"
+    ]
   },
   {
     "id": 25,
@@ -892,7 +993,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "static",
+      "lightning-rod"
+    ]
   },
   {
     "id": 26,
@@ -927,7 +1032,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "static",
+      "lightning-rod"
+    ]
   },
   {
     "id": 27,
@@ -961,7 +1070,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "sand-veil",
+      "sand-rush"
+    ]
   },
   {
     "id": 28,
@@ -995,12 +1108,16 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "sand-veil",
+      "sand-rush"
+    ]
   },
   {
     "id": 29,
-    "name": "NidoranÃ¢â„¢â‚¬",
-    "description": "NidoranÃ¢â„¢â‚¬, a Poison type pokemon, While it does not prefer to fight, even one drop of the poison it secretes from barbs can be fatal.",
+    "name": "Nidoran\u00c3\u00a2\u00e2\u201e\u00a2\u00e2\u201a\u00ac",
+    "description": "Nidoran\u00c3\u00a2\u00e2\u201e\u00a2\u00e2\u201a\u00ac, a Poison type pokemon, While it does not prefer to fight, even one drop of the poison it secretes from barbs can be fatal.",
     "types": [
       "Poison"
     ],
@@ -1034,7 +1151,12 @@
         ]
       ],
       "gender": "0:100"
-    }
+    },
+    "abilities": [
+      "poison-point",
+      "rivalry",
+      "hustle"
+    ]
   },
   {
     "id": 30,
@@ -1072,7 +1194,12 @@
         ]
       ],
       "gender": "0:100"
-    }
+    },
+    "abilities": [
+      "poison-point",
+      "rivalry",
+      "hustle"
+    ]
   },
   {
     "id": 31,
@@ -1111,12 +1238,17 @@
         ]
       ],
       "gender": "0:100"
-    }
+    },
+    "abilities": [
+      "poison-point",
+      "rivalry",
+      "sheer-force"
+    ]
   },
   {
     "id": 32,
-    "name": "NidoranÃ¢â„¢â€š",
-    "description": "NidoranÃ¢â„¢â€š, a Poison type pokemon, It scans its surroundings by raising its ears out of the grass. Its toxic horn is for protection.",
+    "name": "Nidoran\u00c3\u00a2\u00e2\u201e\u00a2\u00e2\u20ac\u0161",
+    "description": "Nidoran\u00c3\u00a2\u00e2\u201e\u00a2\u00e2\u20ac\u0161, a Poison type pokemon, It scans its surroundings by raising its ears out of the grass. Its toxic horn is for protection.",
     "types": [
       "Poison"
     ],
@@ -1150,7 +1282,12 @@
         ]
       ],
       "gender": "100:0"
-    }
+    },
+    "abilities": [
+      "poison-point",
+      "rivalry",
+      "hustle"
+    ]
   },
   {
     "id": 33,
@@ -1189,7 +1326,12 @@
         ]
       ],
       "gender": "100:0"
-    }
+    },
+    "abilities": [
+      "poison-point",
+      "rivalry",
+      "hustle"
+    ]
   },
   {
     "id": 34,
@@ -1229,7 +1371,12 @@
         ]
       ],
       "gender": "100:0"
-    }
+    },
+    "abilities": [
+      "poison-point",
+      "rivalry",
+      "sheer-force"
+    ]
   },
   {
     "id": 35,
@@ -1267,7 +1414,12 @@
         ]
       ],
       "gender": "25:75"
-    }
+    },
+    "abilities": [
+      "cute-charm",
+      "magic-guard",
+      "friend-guard"
+    ]
   },
   {
     "id": 36,
@@ -1305,7 +1457,12 @@
         ]
       ],
       "gender": "25:75"
-    }
+    },
+    "abilities": [
+      "cute-charm",
+      "magic-guard",
+      "unaware"
+    ]
   },
   {
     "id": 37,
@@ -1339,7 +1496,11 @@
         ]
       ],
       "gender": "25:75"
-    }
+    },
+    "abilities": [
+      "flash-fire",
+      "drought"
+    ]
   },
   {
     "id": 38,
@@ -1373,7 +1534,11 @@
         ]
       ],
       "gender": "25:75"
-    }
+    },
+    "abilities": [
+      "flash-fire",
+      "drought"
+    ]
   },
   {
     "id": 39,
@@ -1412,7 +1577,12 @@
         ]
       ],
       "gender": "25:75"
-    }
+    },
+    "abilities": [
+      "cute-charm",
+      "competitive",
+      "friend-guard"
+    ]
   },
   {
     "id": 40,
@@ -1451,7 +1621,12 @@
         ]
       ],
       "gender": "25:75"
-    }
+    },
+    "abilities": [
+      "cute-charm",
+      "competitive",
+      "frisk"
+    ]
   },
   {
     "id": 41,
@@ -1486,7 +1661,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "inner-focus",
+      "infiltrator"
+    ]
   },
   {
     "id": 42,
@@ -1521,7 +1700,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "inner-focus",
+      "infiltrator"
+    ]
   },
   {
     "id": 43,
@@ -1556,7 +1739,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "chlorophyll",
+      "run-away"
+    ]
   },
   {
     "id": 44,
@@ -1591,7 +1778,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "chlorophyll",
+      "stench"
+    ]
   },
   {
     "id": 45,
@@ -1626,7 +1817,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "chlorophyll",
+      "effect-spore"
+    ]
   },
   {
     "id": 46,
@@ -1666,7 +1861,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "effect-spore",
+      "dry-skin",
+      "damp"
+    ]
   },
   {
     "id": 47,
@@ -1706,7 +1906,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "effect-spore",
+      "dry-skin",
+      "damp"
+    ]
   },
   {
     "id": 48,
@@ -1745,7 +1950,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "compound-eyes",
+      "tinted-lens",
+      "run-away"
+    ]
   },
   {
     "id": 49,
@@ -1784,7 +1994,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "shield-dust",
+      "tinted-lens",
+      "wonder-skin"
+    ]
   },
   {
     "id": 50,
@@ -1822,7 +2037,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "sand-veil",
+      "arena-trap",
+      "sand-force"
+    ]
   },
   {
     "id": 51,
@@ -1860,7 +2080,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "sand-veil",
+      "arena-trap",
+      "sand-force"
+    ]
   },
   {
     "id": 52,
@@ -1898,7 +2123,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "pickup",
+      "technician",
+      "unnerve"
+    ]
   },
   {
     "id": 53,
@@ -1936,7 +2166,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "limber",
+      "technician",
+      "unnerve"
+    ]
   },
   {
     "id": 54,
@@ -1975,7 +2210,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "damp",
+      "cloud-nine",
+      "swift-swim"
+    ]
   },
   {
     "id": 55,
@@ -2014,7 +2254,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "damp",
+      "cloud-nine",
+      "swift-swim"
+    ]
   },
   {
     "id": 56,
@@ -2052,7 +2297,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "vital-spirit",
+      "anger-point",
+      "defiant"
+    ]
   },
   {
     "id": 57,
@@ -2090,7 +2340,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "vital-spirit",
+      "anger-point",
+      "defiant"
+    ]
   },
   {
     "id": 58,
@@ -2128,7 +2383,12 @@
         ]
       ],
       "gender": "75:25"
-    }
+    },
+    "abilities": [
+      "intimidate",
+      "flash-fire",
+      "justified"
+    ]
   },
   {
     "id": 59,
@@ -2166,7 +2426,12 @@
         ]
       ],
       "gender": "75:25"
-    }
+    },
+    "abilities": [
+      "intimidate",
+      "flash-fire",
+      "justified"
+    ]
   },
   {
     "id": 60,
@@ -2204,7 +2469,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "water-absorb",
+      "damp",
+      "swift-swim"
+    ]
   },
   {
     "id": 61,
@@ -2242,7 +2512,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "water-absorb",
+      "damp",
+      "swift-swim"
+    ]
   },
   {
     "id": 62,
@@ -2281,7 +2556,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "water-absorb",
+      "damp",
+      "swift-swim"
+    ]
   },
   {
     "id": 63,
@@ -2319,7 +2599,12 @@
         ]
       ],
       "gender": "75:25"
-    }
+    },
+    "abilities": [
+      "synchronize",
+      "inner-focus",
+      "magic-guard"
+    ]
   },
   {
     "id": 64,
@@ -2357,7 +2642,12 @@
         ]
       ],
       "gender": "75:25"
-    }
+    },
+    "abilities": [
+      "synchronize",
+      "inner-focus",
+      "magic-guard"
+    ]
   },
   {
     "id": 65,
@@ -2395,7 +2685,12 @@
         ]
       ],
       "gender": "75:25"
-    }
+    },
+    "abilities": [
+      "synchronize",
+      "inner-focus",
+      "magic-guard"
+    ]
   },
   {
     "id": 66,
@@ -2433,7 +2728,12 @@
         ]
       ],
       "gender": "75:25"
-    }
+    },
+    "abilities": [
+      "guts",
+      "no-guard",
+      "steadfast"
+    ]
   },
   {
     "id": 67,
@@ -2471,7 +2771,12 @@
         ]
       ],
       "gender": "75:25"
-    }
+    },
+    "abilities": [
+      "guts",
+      "no-guard",
+      "steadfast"
+    ]
   },
   {
     "id": 68,
@@ -2509,7 +2814,12 @@
         ]
       ],
       "gender": "75:25"
-    }
+    },
+    "abilities": [
+      "guts",
+      "no-guard",
+      "steadfast"
+    ]
   },
   {
     "id": 69,
@@ -2544,7 +2854,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "chlorophyll",
+      "gluttony"
+    ]
   },
   {
     "id": 70,
@@ -2579,7 +2893,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "chlorophyll",
+      "gluttony"
+    ]
   },
   {
     "id": 71,
@@ -2614,7 +2932,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "chlorophyll",
+      "gluttony"
+    ]
   },
   {
     "id": 72,
@@ -2653,7 +2975,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "clear-body",
+      "liquid-ooze",
+      "rain-dish"
+    ]
   },
   {
     "id": 73,
@@ -2692,7 +3019,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "clear-body",
+      "liquid-ooze",
+      "rain-dish"
+    ]
   },
   {
     "id": 74,
@@ -2731,7 +3063,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "rock-head",
+      "sturdy",
+      "sand-veil"
+    ]
   },
   {
     "id": 75,
@@ -2770,7 +3107,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "rock-head",
+      "sturdy",
+      "sand-veil"
+    ]
   },
   {
     "id": 76,
@@ -2809,7 +3151,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "rock-head",
+      "sturdy",
+      "sand-veil"
+    ]
   },
   {
     "id": 77,
@@ -2847,7 +3194,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "run-away",
+      "flash-fire",
+      "flame-body"
+    ]
   },
   {
     "id": 78,
@@ -2885,7 +3237,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "run-away",
+      "flash-fire",
+      "flame-body"
+    ]
   },
   {
     "id": 79,
@@ -2925,7 +3282,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "oblivious",
+      "own-tempo",
+      "regenerator"
+    ]
   },
   {
     "id": 80,
@@ -2965,7 +3327,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "oblivious",
+      "own-tempo",
+      "regenerator"
+    ]
   },
   {
     "id": 81,
@@ -3004,7 +3371,12 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "magnet-pull",
+      "sturdy",
+      "analytic"
+    ]
   },
   {
     "id": 82,
@@ -3043,7 +3415,12 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "magnet-pull",
+      "sturdy",
+      "analytic"
+    ]
   },
   {
     "id": 83,
@@ -3083,7 +3460,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "keen-eye",
+      "inner-focus",
+      "defiant"
+    ]
   },
   {
     "id": 84,
@@ -3122,7 +3504,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "run-away",
+      "early-bird",
+      "tangled-feet"
+    ]
   },
   {
     "id": 85,
@@ -3161,7 +3548,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "run-away",
+      "early-bird",
+      "tangled-feet"
+    ]
   },
   {
     "id": 86,
@@ -3200,7 +3592,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "thick-fat",
+      "hydration",
+      "ice-body"
+    ]
   },
   {
     "id": 87,
@@ -3240,7 +3637,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "thick-fat",
+      "hydration",
+      "ice-body"
+    ]
   },
   {
     "id": 88,
@@ -3278,7 +3680,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "stench",
+      "sticky-hold",
+      "poison-touch"
+    ]
   },
   {
     "id": 89,
@@ -3316,7 +3723,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "stench",
+      "sticky-hold",
+      "poison-touch"
+    ]
   },
   {
     "id": 90,
@@ -3354,7 +3766,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "shell-armor",
+      "skill-link",
+      "overcoat"
+    ]
   },
   {
     "id": 91,
@@ -3393,7 +3810,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "shell-armor",
+      "skill-link",
+      "overcoat"
+    ]
   },
   {
     "id": 92,
@@ -3424,7 +3846,10 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "levitate"
+    ]
   },
   {
     "id": 93,
@@ -3455,7 +3880,10 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "levitate"
+    ]
   },
   {
     "id": 94,
@@ -3486,7 +3914,10 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "cursed-body"
+    ]
   },
   {
     "id": 95,
@@ -3525,7 +3956,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "rock-head",
+      "sturdy",
+      "weak-armor"
+    ]
   },
   {
     "id": 96,
@@ -3563,7 +3999,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "insomnia",
+      "forewarn",
+      "inner-focus"
+    ]
   },
   {
     "id": 97,
@@ -3601,7 +4042,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "insomnia",
+      "forewarn",
+      "inner-focus"
+    ]
   },
   {
     "id": 98,
@@ -3639,7 +4085,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "hyper-cutter",
+      "shell-armor",
+      "sheer-force"
+    ]
   },
   {
     "id": 99,
@@ -3677,7 +4128,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "hyper-cutter",
+      "shell-armor",
+      "sheer-force"
+    ]
   },
   {
     "id": 100,
@@ -3715,7 +4171,12 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "soundproof",
+      "static",
+      "aftermath"
+    ]
   },
   {
     "id": 101,
@@ -3753,7 +4214,12 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "soundproof",
+      "static",
+      "aftermath"
+    ]
   },
   {
     "id": 102,
@@ -3788,7 +4254,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "chlorophyll",
+      "harvest"
+    ]
   },
   {
     "id": 103,
@@ -3823,7 +4293,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "chlorophyll",
+      "harvest"
+    ]
   },
   {
     "id": 104,
@@ -3861,7 +4335,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "rock-head",
+      "lightning-rod",
+      "battle-armor"
+    ]
   },
   {
     "id": 105,
@@ -3899,7 +4378,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "rock-head",
+      "lightning-rod",
+      "battle-armor"
+    ]
   },
   {
     "id": 106,
@@ -3937,7 +4421,12 @@
         ]
       ],
       "gender": "100:0"
-    }
+    },
+    "abilities": [
+      "limber",
+      "reckless",
+      "unburden"
+    ]
   },
   {
     "id": 107,
@@ -3975,7 +4464,12 @@
         ]
       ],
       "gender": "100:0"
-    }
+    },
+    "abilities": [
+      "keen-eye",
+      "iron-fist",
+      "inner-focus"
+    ]
   },
   {
     "id": 108,
@@ -4013,7 +4507,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "own-tempo",
+      "oblivious",
+      "cloud-nine"
+    ]
   },
   {
     "id": 109,
@@ -4043,7 +4542,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "levitate",
+      "neutralizing-gas",
+      "stench"
+    ]
   },
   {
     "id": 110,
@@ -4073,7 +4577,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "levitate",
+      "neutralizing-gas",
+      "stench"
+    ]
   },
   {
     "id": 111,
@@ -4113,7 +4622,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "lightning-rod",
+      "rock-head",
+      "reckless"
+    ]
   },
   {
     "id": 112,
@@ -4153,7 +4667,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "lightning-rod",
+      "rock-head",
+      "reckless"
+    ]
   },
   {
     "id": 113,
@@ -4191,7 +4710,12 @@
         ]
       ],
       "gender": "0:100"
-    }
+    },
+    "abilities": [
+      "natural-cure",
+      "serene-grace",
+      "healer"
+    ]
   },
   {
     "id": 114,
@@ -4229,7 +4753,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "chlorophyll",
+      "leaf-guard",
+      "regenerator"
+    ]
   },
   {
     "id": 115,
@@ -4267,7 +4796,12 @@
         ]
       ],
       "gender": "0:100"
-    }
+    },
+    "abilities": [
+      "early-bird",
+      "scrappy",
+      "inner-focus"
+    ]
   },
   {
     "id": 116,
@@ -4306,7 +4840,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "swift-swim",
+      "sniper",
+      "damp"
+    ]
   },
   {
     "id": 117,
@@ -4345,7 +4884,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "poison-point",
+      "sniper",
+      "damp"
+    ]
   },
   {
     "id": 118,
@@ -4383,7 +4927,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "swift-swim",
+      "water-veil",
+      "lightning-rod"
+    ]
   },
   {
     "id": 119,
@@ -4421,7 +4970,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "swift-swim",
+      "water-veil",
+      "lightning-rod"
+    ]
   },
   {
     "id": 120,
@@ -4459,7 +5013,12 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "illuminate",
+      "natural-cure",
+      "analytic"
+    ]
   },
   {
     "id": 121,
@@ -4498,7 +5057,12 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "illuminate",
+      "natural-cure",
+      "analytic"
+    ]
   },
   {
     "id": 122,
@@ -4537,7 +5101,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "soundproof",
+      "filter",
+      "technician"
+    ]
   },
   {
     "id": 123,
@@ -4576,7 +5145,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "swarm",
+      "technician",
+      "steadfast"
+    ]
   },
   {
     "id": 124,
@@ -4615,7 +5189,12 @@
         ]
       ],
       "gender": "0:100"
-    }
+    },
+    "abilities": [
+      "oblivious",
+      "forewarn",
+      "dry-skin"
+    ]
   },
   {
     "id": 125,
@@ -4649,7 +5228,11 @@
         ]
       ],
       "gender": "75:25"
-    }
+    },
+    "abilities": [
+      "static",
+      "vital-spirit"
+    ]
   },
   {
     "id": 126,
@@ -4683,7 +5266,11 @@
         ]
       ],
       "gender": "75:25"
-    }
+    },
+    "abilities": [
+      "flame-body",
+      "vital-spirit"
+    ]
   },
   {
     "id": 127,
@@ -4721,7 +5308,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "hyper-cutter",
+      "mold-breaker",
+      "moxie"
+    ]
   },
   {
     "id": 128,
@@ -4759,7 +5351,12 @@
         ]
       ],
       "gender": "100:0"
-    }
+    },
+    "abilities": [
+      "intimidate",
+      "anger-point",
+      "sheer-force"
+    ]
   },
   {
     "id": 129,
@@ -4794,7 +5391,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "swift-swim",
+      "rattled"
+    ]
   },
   {
     "id": 130,
@@ -4830,7 +5431,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "intimidate",
+      "moxie"
+    ]
   },
   {
     "id": 131,
@@ -4870,7 +5475,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "water-absorb",
+      "shell-armor",
+      "hydration"
+    ]
   },
   {
     "id": 132,
@@ -4904,7 +5514,11 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "limber",
+      "imposter"
+    ]
   },
   {
     "id": 133,
@@ -4942,7 +5556,12 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "run-away",
+      "adaptability",
+      "anticipation"
+    ]
   },
   {
     "id": 134,
@@ -4976,7 +5595,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "water-absorb",
+      "hydration"
+    ]
   },
   {
     "id": 135,
@@ -5010,7 +5633,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "volt-absorb",
+      "quick-feet"
+    ]
   },
   {
     "id": 136,
@@ -5044,7 +5671,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "flash-fire",
+      "guts"
+    ]
   },
   {
     "id": 137,
@@ -5082,7 +5713,12 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "trace",
+      "download",
+      "analytic"
+    ]
   },
   {
     "id": 138,
@@ -5122,7 +5758,12 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "swift-swim",
+      "shell-armor",
+      "weak-armor"
+    ]
   },
   {
     "id": 139,
@@ -5162,7 +5803,12 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "swift-swim",
+      "shell-armor",
+      "weak-armor"
+    ]
   },
   {
     "id": 140,
@@ -5202,7 +5848,12 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "swift-swim",
+      "battle-armor",
+      "weak-armor"
+    ]
   },
   {
     "id": 141,
@@ -5242,7 +5893,12 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "swift-swim",
+      "battle-armor",
+      "weak-armor"
+    ]
   },
   {
     "id": 142,
@@ -5281,7 +5937,12 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "rock-head",
+      "pressure",
+      "unnerve"
+    ]
   },
   {
     "id": 143,
@@ -5319,7 +5980,12 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "immunity",
+      "thick-fat",
+      "gluttony"
+    ]
   },
   {
     "id": 144,
@@ -5354,7 +6020,11 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "pressure",
+      "snow-cloak"
+    ]
   },
   {
     "id": 145,
@@ -5389,7 +6059,11 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "pressure",
+      "static"
+    ]
   },
   {
     "id": 146,
@@ -5424,7 +6098,11 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "pressure",
+      "flame-body"
+    ]
   },
   {
     "id": 147,
@@ -5459,7 +6137,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "shed-skin",
+      "marvel-scale"
+    ]
   },
   {
     "id": 148,
@@ -5494,7 +6176,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "shed-skin",
+      "marvel-scale"
+    ]
   },
   {
     "id": 149,
@@ -5530,7 +6216,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "inner-focus",
+      "multiscale"
+    ]
   },
   {
     "id": 150,
@@ -5564,7 +6254,11 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "pressure",
+      "unnerve"
+    ]
   },
   {
     "id": 151,
@@ -5594,7 +6288,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "synchronize"
+    ]
   },
   {
     "id": 152,
@@ -5629,7 +6326,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "overgrow",
+      "leaf-guard"
+    ]
   },
   {
     "id": 153,
@@ -5664,7 +6365,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "overgrow",
+      "leaf-guard"
+    ]
   },
   {
     "id": 154,
@@ -5699,7 +6404,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "overgrow",
+      "leaf-guard"
+    ]
   },
   {
     "id": 155,
@@ -5733,7 +6442,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "blaze",
+      "flash-fire"
+    ]
   },
   {
     "id": 156,
@@ -5767,7 +6480,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "blaze",
+      "flash-fire"
+    ]
   },
   {
     "id": 157,
@@ -5801,7 +6518,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "blaze",
+      "flash-fire"
+    ]
   },
   {
     "id": 158,
@@ -5836,7 +6557,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "torrent",
+      "sheer-force"
+    ]
   },
   {
     "id": 159,
@@ -5871,7 +6596,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "torrent",
+      "sheer-force"
+    ]
   },
   {
     "id": 160,
@@ -5906,7 +6635,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "torrent",
+      "sheer-force"
+    ]
   },
   {
     "id": 161,
@@ -5944,7 +6677,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "run-away",
+      "keen-eye",
+      "frisk"
+    ]
   },
   {
     "id": 162,
@@ -5982,7 +6720,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "run-away",
+      "keen-eye",
+      "frisk"
+    ]
   },
   {
     "id": 163,
@@ -6021,7 +6764,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "insomnia",
+      "keen-eye",
+      "tinted-lens"
+    ]
   },
   {
     "id": 164,
@@ -6060,7 +6808,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "insomnia",
+      "keen-eye",
+      "tinted-lens"
+    ]
   },
   {
     "id": 165,
@@ -6099,7 +6852,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "swarm",
+      "early-bird",
+      "rattled"
+    ]
   },
   {
     "id": 166,
@@ -6138,7 +6896,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "swarm",
+      "early-bird",
+      "iron-fist"
+    ]
   },
   {
     "id": 167,
@@ -6177,7 +6940,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "swarm",
+      "insomnia",
+      "sniper"
+    ]
   },
   {
     "id": 168,
@@ -6216,7 +6984,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "swarm",
+      "insomnia",
+      "sniper"
+    ]
   },
   {
     "id": 169,
@@ -6251,7 +7024,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "inner-focus",
+      "infiltrator"
+    ]
   },
   {
     "id": 170,
@@ -6290,7 +7067,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "volt-absorb",
+      "illuminate",
+      "water-absorb"
+    ]
   },
   {
     "id": 171,
@@ -6329,7 +7111,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "volt-absorb",
+      "illuminate",
+      "water-absorb"
+    ]
   },
   {
     "id": 172,
@@ -6363,7 +7150,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "static",
+      "lightning-rod"
+    ]
   },
   {
     "id": 173,
@@ -6401,7 +7192,12 @@
         ]
       ],
       "gender": "25:75"
-    }
+    },
+    "abilities": [
+      "cute-charm",
+      "magic-guard",
+      "friend-guard"
+    ]
   },
   {
     "id": 174,
@@ -6440,7 +7236,12 @@
         ]
       ],
       "gender": "25:75"
-    }
+    },
+    "abilities": [
+      "cute-charm",
+      "competitive",
+      "friend-guard"
+    ]
   },
   {
     "id": 175,
@@ -6478,7 +7279,12 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "hustle",
+      "serene-grace",
+      "super-luck"
+    ]
   },
   {
     "id": 176,
@@ -6518,7 +7324,12 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "hustle",
+      "serene-grace",
+      "super-luck"
+    ]
   },
   {
     "id": 177,
@@ -6557,7 +7368,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "synchronize",
+      "early-bird",
+      "magic-bounce"
+    ]
   },
   {
     "id": 178,
@@ -6596,7 +7412,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "synchronize",
+      "early-bird",
+      "magic-bounce"
+    ]
   },
   {
     "id": 179,
@@ -6631,7 +7452,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "static",
+      "plus"
+    ]
   },
   {
     "id": 180,
@@ -6666,7 +7491,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "static",
+      "plus"
+    ]
   },
   {
     "id": 181,
@@ -6701,7 +7530,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "static",
+      "plus"
+    ]
   },
   {
     "id": 182,
@@ -6735,7 +7568,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "chlorophyll",
+      "healer"
+    ]
   },
   {
     "id": 183,
@@ -6775,7 +7612,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "thick-fat",
+      "huge-power",
+      "sap-sipper"
+    ]
   },
   {
     "id": 184,
@@ -6815,7 +7657,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "thick-fat",
+      "huge-power",
+      "sap-sipper"
+    ]
   },
   {
     "id": 185,
@@ -6853,7 +7700,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "sturdy",
+      "rock-head",
+      "rattled"
+    ]
   },
   {
     "id": 186,
@@ -6891,7 +7743,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "water-absorb",
+      "damp",
+      "drizzle"
+    ]
   },
   {
     "id": 187,
@@ -6931,7 +7788,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "chlorophyll",
+      "leaf-guard",
+      "infiltrator"
+    ]
   },
   {
     "id": 188,
@@ -6971,7 +7833,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "chlorophyll",
+      "leaf-guard",
+      "infiltrator"
+    ]
   },
   {
     "id": 189,
@@ -7011,7 +7878,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "chlorophyll",
+      "leaf-guard",
+      "infiltrator"
+    ]
   },
   {
     "id": 190,
@@ -7049,7 +7921,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "run-away",
+      "pickup",
+      "skill-link"
+    ]
   },
   {
     "id": 191,
@@ -7087,7 +7964,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "chlorophyll",
+      "solar-power",
+      "early-bird"
+    ]
   },
   {
     "id": 192,
@@ -7125,7 +8007,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "chlorophyll",
+      "solar-power",
+      "early-bird"
+    ]
   },
   {
     "id": 193,
@@ -7164,7 +8051,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "speed-boost",
+      "compound-eyes",
+      "frisk"
+    ]
   },
   {
     "id": 194,
@@ -7204,7 +8096,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "damp",
+      "water-absorb",
+      "unaware"
+    ]
   },
   {
     "id": 195,
@@ -7244,7 +8141,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "damp",
+      "water-absorb",
+      "unaware"
+    ]
   },
   {
     "id": 196,
@@ -7278,7 +8180,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "synchronize",
+      "magic-bounce"
+    ]
   },
   {
     "id": 197,
@@ -7312,7 +8218,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "synchronize",
+      "inner-focus"
+    ]
   },
   {
     "id": 198,
@@ -7351,7 +8261,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "insomnia",
+      "super-luck",
+      "prankster"
+    ]
   },
   {
     "id": 199,
@@ -7391,7 +8306,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "oblivious",
+      "own-tempo",
+      "regenerator"
+    ]
   },
   {
     "id": 200,
@@ -7421,7 +8341,10 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "levitate"
+    ]
   },
   {
     "id": 201,
@@ -7451,7 +8374,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "levitate"
+    ]
   },
   {
     "id": 202,
@@ -7485,7 +8411,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "shadow-tag",
+      "telepathy"
+    ]
   },
   {
     "id": 203,
@@ -7524,7 +8454,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "inner-focus",
+      "early-bird",
+      "sap-sipper"
+    ]
   },
   {
     "id": 204,
@@ -7558,7 +8493,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "sturdy",
+      "overcoat"
+    ]
   },
   {
     "id": 205,
@@ -7593,7 +8532,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "sturdy",
+      "overcoat"
+    ]
   },
   {
     "id": 206,
@@ -7631,7 +8574,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "serene-grace",
+      "run-away",
+      "rattled"
+    ]
   },
   {
     "id": 207,
@@ -7670,7 +8618,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "hyper-cutter",
+      "sand-veil",
+      "immunity"
+    ]
   },
   {
     "id": 208,
@@ -7709,7 +8662,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "rock-head",
+      "sturdy",
+      "sheer-force"
+    ]
   },
   {
     "id": 209,
@@ -7748,7 +8706,12 @@
         ]
       ],
       "gender": "25:75"
-    }
+    },
+    "abilities": [
+      "intimidate",
+      "run-away",
+      "rattled"
+    ]
   },
   {
     "id": 210,
@@ -7787,7 +8750,12 @@
         ]
       ],
       "gender": "25:75"
-    }
+    },
+    "abilities": [
+      "intimidate",
+      "quick-feet",
+      "rattled"
+    ]
   },
   {
     "id": 211,
@@ -7826,7 +8794,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "poison-point",
+      "swift-swim",
+      "intimidate"
+    ]
   },
   {
     "id": 212,
@@ -7865,7 +8838,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "swarm",
+      "technician",
+      "light-metal"
+    ]
   },
   {
     "id": 213,
@@ -7904,7 +8882,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "sturdy",
+      "gluttony",
+      "contrary"
+    ]
   },
   {
     "id": 214,
@@ -7943,7 +8926,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "swarm",
+      "guts",
+      "moxie"
+    ]
   },
   {
     "id": 215,
@@ -7982,7 +8970,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "inner-focus",
+      "keen-eye",
+      "pickpocket"
+    ]
   },
   {
     "id": 216,
@@ -8020,7 +9013,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "pickup",
+      "quick-feet",
+      "honey-gather"
+    ]
   },
   {
     "id": 217,
@@ -8058,7 +9056,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "guts",
+      "quick-feet",
+      "unnerve"
+    ]
   },
   {
     "id": 218,
@@ -8096,7 +9099,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "magma-armor",
+      "flame-body",
+      "weak-armor"
+    ]
   },
   {
     "id": 219,
@@ -8135,7 +9143,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "magma-armor",
+      "flame-body",
+      "weak-armor"
+    ]
   },
   {
     "id": 220,
@@ -8174,7 +9187,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "oblivious",
+      "snow-cloak",
+      "thick-fat"
+    ]
   },
   {
     "id": 221,
@@ -8213,7 +9231,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "oblivious",
+      "snow-cloak",
+      "thick-fat"
+    ]
   },
   {
     "id": 222,
@@ -8253,7 +9276,12 @@
         ]
       ],
       "gender": "25:75"
-    }
+    },
+    "abilities": [
+      "hustle",
+      "natural-cure",
+      "regenerator"
+    ]
   },
   {
     "id": 223,
@@ -8292,7 +9320,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "hustle",
+      "sniper",
+      "moody"
+    ]
   },
   {
     "id": 224,
@@ -8331,7 +9364,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "suction-cups",
+      "sniper",
+      "moody"
+    ]
   },
   {
     "id": 225,
@@ -8371,7 +9409,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "vital-spirit",
+      "hustle",
+      "insomnia"
+    ]
   },
   {
     "id": 226,
@@ -8410,7 +9453,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "swift-swim",
+      "water-absorb",
+      "water-veil"
+    ]
   },
   {
     "id": 227,
@@ -8449,7 +9497,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "keen-eye",
+      "sturdy",
+      "weak-armor"
+    ]
   },
   {
     "id": 228,
@@ -8488,7 +9541,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "early-bird",
+      "flash-fire",
+      "unnerve"
+    ]
   },
   {
     "id": 229,
@@ -8527,7 +9585,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "early-bird",
+      "flash-fire",
+      "unnerve"
+    ]
   },
   {
     "id": 230,
@@ -8567,7 +9630,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "swift-swim",
+      "sniper",
+      "damp"
+    ]
   },
   {
     "id": 231,
@@ -8601,7 +9669,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "pickup",
+      "sand-veil"
+    ]
   },
   {
     "id": 232,
@@ -8635,7 +9707,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "sturdy",
+      "sand-veil"
+    ]
   },
   {
     "id": 233,
@@ -8673,7 +9749,12 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "trace",
+      "download",
+      "analytic"
+    ]
   },
   {
     "id": 234,
@@ -8711,7 +9792,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "intimidate",
+      "frisk",
+      "sap-sipper"
+    ]
   },
   {
     "id": 235,
@@ -8749,7 +9835,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "own-tempo",
+      "technician",
+      "moody"
+    ]
   },
   {
     "id": 236,
@@ -8787,7 +9878,12 @@
         ]
       ],
       "gender": "100:0"
-    }
+    },
+    "abilities": [
+      "guts",
+      "steadfast",
+      "vital-spirit"
+    ]
   },
   {
     "id": 237,
@@ -8825,7 +9921,12 @@
         ]
       ],
       "gender": "100:0"
-    }
+    },
+    "abilities": [
+      "intimidate",
+      "technician",
+      "steadfast"
+    ]
   },
   {
     "id": 238,
@@ -8864,7 +9965,12 @@
         ]
       ],
       "gender": "0:100"
-    }
+    },
+    "abilities": [
+      "oblivious",
+      "forewarn",
+      "hydration"
+    ]
   },
   {
     "id": 239,
@@ -8898,7 +10004,11 @@
         ]
       ],
       "gender": "75:25"
-    }
+    },
+    "abilities": [
+      "static",
+      "vital-spirit"
+    ]
   },
   {
     "id": 240,
@@ -8932,7 +10042,11 @@
         ]
       ],
       "gender": "75:25"
-    }
+    },
+    "abilities": [
+      "flame-body",
+      "vital-spirit"
+    ]
   },
   {
     "id": 241,
@@ -8970,7 +10084,12 @@
         ]
       ],
       "gender": "0:100"
-    }
+    },
+    "abilities": [
+      "thick-fat",
+      "scrappy",
+      "sap-sipper"
+    ]
   },
   {
     "id": 242,
@@ -9008,7 +10127,12 @@
         ]
       ],
       "gender": "0:100"
-    }
+    },
+    "abilities": [
+      "natural-cure",
+      "serene-grace",
+      "healer"
+    ]
   },
   {
     "id": 243,
@@ -9042,7 +10166,11 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "pressure",
+      "inner-focus"
+    ]
   },
   {
     "id": 244,
@@ -9076,7 +10204,11 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "pressure",
+      "inner-focus"
+    ]
   },
   {
     "id": 245,
@@ -9110,7 +10242,11 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "pressure",
+      "inner-focus"
+    ]
   },
   {
     "id": 246,
@@ -9145,7 +10281,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "guts",
+      "sand-veil"
+    ]
   },
   {
     "id": 247,
@@ -9176,7 +10316,10 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "shed-skin"
+    ]
   },
   {
     "id": 248,
@@ -9211,7 +10354,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "sand-stream",
+      "unnerve"
+    ]
   },
   {
     "id": 249,
@@ -9246,7 +10393,11 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "pressure",
+      "multiscale"
+    ]
   },
   {
     "id": 250,
@@ -9281,7 +10432,11 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "pressure",
+      "regenerator"
+    ]
   },
   {
     "id": 251,
@@ -9312,7 +10467,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "natural-cure"
+    ]
   },
   {
     "id": 252,
@@ -9347,7 +10505,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "overgrow",
+      "unburden"
+    ]
   },
   {
     "id": 253,
@@ -9382,7 +10544,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "overgrow",
+      "unburden"
+    ]
   },
   {
     "id": 254,
@@ -9417,7 +10583,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "overgrow",
+      "unburden"
+    ]
   },
   {
     "id": 255,
@@ -9451,7 +10621,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "blaze",
+      "speed-boost"
+    ]
   },
   {
     "id": 256,
@@ -9486,7 +10660,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "blaze",
+      "speed-boost"
+    ]
   },
   {
     "id": 257,
@@ -9521,7 +10699,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "blaze",
+      "speed-boost"
+    ]
   },
   {
     "id": 258,
@@ -9556,7 +10738,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "torrent",
+      "damp"
+    ]
   },
   {
     "id": 259,
@@ -9592,7 +10778,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "torrent",
+      "damp"
+    ]
   },
   {
     "id": 260,
@@ -9628,7 +10818,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "torrent",
+      "damp"
+    ]
   },
   {
     "id": 261,
@@ -9666,7 +10860,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "run-away",
+      "quick-feet",
+      "rattled"
+    ]
   },
   {
     "id": 262,
@@ -9704,7 +10903,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "intimidate",
+      "quick-feet",
+      "moxie"
+    ]
   },
   {
     "id": 263,
@@ -9742,7 +10946,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "pickup",
+      "gluttony",
+      "quick-feet"
+    ]
   },
   {
     "id": 264,
@@ -9780,7 +10989,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "pickup",
+      "gluttony",
+      "quick-feet"
+    ]
   },
   {
     "id": 265,
@@ -9814,7 +11028,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "shield-dust",
+      "run-away"
+    ]
   },
   {
     "id": 266,
@@ -9844,7 +11062,10 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "shed-skin"
+    ]
   },
   {
     "id": 267,
@@ -9879,7 +11100,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "swarm",
+      "rivalry"
+    ]
   },
   {
     "id": 268,
@@ -9909,7 +11134,10 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "shed-skin"
+    ]
   },
   {
     "id": 269,
@@ -9944,7 +11172,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "shield-dust",
+      "compound-eyes"
+    ]
   },
   {
     "id": 270,
@@ -9984,7 +11216,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "swift-swim",
+      "rain-dish",
+      "own-tempo"
+    ]
   },
   {
     "id": 271,
@@ -10024,7 +11261,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "swift-swim",
+      "rain-dish",
+      "own-tempo"
+    ]
   },
   {
     "id": 272,
@@ -10064,7 +11306,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "swift-swim",
+      "rain-dish",
+      "own-tempo"
+    ]
   },
   {
     "id": 273,
@@ -10103,7 +11350,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "chlorophyll",
+      "early-bird",
+      "pickpocket"
+    ]
   },
   {
     "id": 274,
@@ -10143,7 +11395,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "chlorophyll",
+      "early-bird",
+      "pickpocket"
+    ]
   },
   {
     "id": 275,
@@ -10183,7 +11440,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "chlorophyll",
+      "wind-rider",
+      "pickpocket"
+    ]
   },
   {
     "id": 276,
@@ -10218,7 +11480,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "guts",
+      "scrappy"
+    ]
   },
   {
     "id": 277,
@@ -10253,7 +11519,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "guts",
+      "scrappy"
+    ]
   },
   {
     "id": 278,
@@ -10293,7 +11563,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "keen-eye",
+      "hydration",
+      "rain-dish"
+    ]
   },
   {
     "id": 279,
@@ -10333,7 +11608,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "keen-eye",
+      "drizzle",
+      "rain-dish"
+    ]
   },
   {
     "id": 280,
@@ -10372,7 +11652,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "synchronize",
+      "trace",
+      "telepathy"
+    ]
   },
   {
     "id": 281,
@@ -10411,7 +11696,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "synchronize",
+      "trace",
+      "telepathy"
+    ]
   },
   {
     "id": 282,
@@ -10450,7 +11740,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "synchronize",
+      "trace",
+      "telepathy"
+    ]
   },
   {
     "id": 283,
@@ -10486,7 +11781,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "swift-swim",
+      "rain-dish"
+    ]
   },
   {
     "id": 284,
@@ -10522,7 +11821,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "intimidate",
+      "unnerve"
+    ]
   },
   {
     "id": 285,
@@ -10561,7 +11864,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "effect-spore",
+      "poison-heal",
+      "quick-feet"
+    ]
   },
   {
     "id": 286,
@@ -10601,7 +11909,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "effect-spore",
+      "poison-heal",
+      "technician"
+    ]
   },
   {
     "id": 287,
@@ -10631,7 +11944,10 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "truant"
+    ]
   },
   {
     "id": 288,
@@ -10661,7 +11977,10 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "vital-spirit"
+    ]
   },
   {
     "id": 289,
@@ -10691,7 +12010,10 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "truant"
+    ]
   },
   {
     "id": 290,
@@ -10726,7 +12048,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "compound-eyes",
+      "run-away"
+    ]
   },
   {
     "id": 291,
@@ -10761,7 +12087,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "speed-boost",
+      "infiltrator"
+    ]
   },
   {
     "id": 292,
@@ -10792,7 +12122,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "wonder-guard"
+    ]
   },
   {
     "id": 293,
@@ -10827,7 +12160,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "soundproof",
+      "rattled"
+    ]
   },
   {
     "id": 294,
@@ -10862,7 +12199,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "soundproof",
+      "scrappy"
+    ]
   },
   {
     "id": 295,
@@ -10897,7 +12238,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "soundproof",
+      "scrappy"
+    ]
   },
   {
     "id": 296,
@@ -10935,7 +12280,12 @@
         ]
       ],
       "gender": "75:25"
-    }
+    },
+    "abilities": [
+      "thick-fat",
+      "guts",
+      "sheer-force"
+    ]
   },
   {
     "id": 297,
@@ -10973,7 +12323,12 @@
         ]
       ],
       "gender": "75:25"
-    }
+    },
+    "abilities": [
+      "thick-fat",
+      "guts",
+      "sheer-force"
+    ]
   },
   {
     "id": 298,
@@ -11012,7 +12367,12 @@
         ]
       ],
       "gender": "25:75"
-    }
+    },
+    "abilities": [
+      "thick-fat",
+      "huge-power",
+      "sap-sipper"
+    ]
   },
   {
     "id": 299,
@@ -11050,7 +12410,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "sturdy",
+      "magnet-pull",
+      "sand-force"
+    ]
   },
   {
     "id": 300,
@@ -11089,7 +12454,12 @@
         ]
       ],
       "gender": "25:75"
-    }
+    },
+    "abilities": [
+      "cute-charm",
+      "normalize",
+      "wonder-skin"
+    ]
   },
   {
     "id": 301,
@@ -11128,7 +12498,12 @@
         ]
       ],
       "gender": "25:75"
-    }
+    },
+    "abilities": [
+      "cute-charm",
+      "normalize",
+      "wonder-skin"
+    ]
   },
   {
     "id": 302,
@@ -11167,7 +12542,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "keen-eye",
+      "stall",
+      "prankster"
+    ]
   },
   {
     "id": 303,
@@ -11207,7 +12587,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "hyper-cutter",
+      "intimidate",
+      "sheer-force"
+    ]
   },
   {
     "id": 304,
@@ -11246,7 +12631,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "sturdy",
+      "rock-head",
+      "heavy-metal"
+    ]
   },
   {
     "id": 305,
@@ -11285,7 +12675,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "sturdy",
+      "rock-head",
+      "heavy-metal"
+    ]
   },
   {
     "id": 306,
@@ -11324,7 +12719,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "sturdy",
+      "rock-head",
+      "heavy-metal"
+    ]
   },
   {
     "id": 307,
@@ -11359,7 +12759,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "pure-power",
+      "telepathy"
+    ]
   },
   {
     "id": 308,
@@ -11394,7 +12798,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "pure-power",
+      "telepathy"
+    ]
   },
   {
     "id": 309,
@@ -11432,7 +12840,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "static",
+      "lightning-rod",
+      "minus"
+    ]
   },
   {
     "id": 310,
@@ -11470,7 +12883,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "static",
+      "lightning-rod",
+      "minus"
+    ]
   },
   {
     "id": 311,
@@ -11504,7 +12922,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "plus",
+      "lightning-rod"
+    ]
   },
   {
     "id": 312,
@@ -11538,7 +12960,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "minus",
+      "volt-absorb"
+    ]
   },
   {
     "id": 313,
@@ -11577,7 +13003,12 @@
         ]
       ],
       "gender": "100:0"
-    }
+    },
+    "abilities": [
+      "illuminate",
+      "swarm",
+      "prankster"
+    ]
   },
   {
     "id": 314,
@@ -11616,7 +13047,12 @@
         ]
       ],
       "gender": "0:100"
-    }
+    },
+    "abilities": [
+      "oblivious",
+      "tinted-lens",
+      "prankster"
+    ]
   },
   {
     "id": 315,
@@ -11656,7 +13092,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "natural-cure",
+      "poison-point",
+      "leaf-guard"
+    ]
   },
   {
     "id": 316,
@@ -11694,7 +13135,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "liquid-ooze",
+      "sticky-hold",
+      "gluttony"
+    ]
   },
   {
     "id": 317,
@@ -11732,7 +13178,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "liquid-ooze",
+      "sticky-hold",
+      "gluttony"
+    ]
   },
   {
     "id": 318,
@@ -11767,7 +13218,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "rough-skin",
+      "speed-boost"
+    ]
   },
   {
     "id": 319,
@@ -11802,7 +13257,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "rough-skin",
+      "speed-boost"
+    ]
   },
   {
     "id": 320,
@@ -11841,7 +13300,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "water-veil",
+      "oblivious",
+      "pressure"
+    ]
   },
   {
     "id": 321,
@@ -11880,7 +13344,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "water-veil",
+      "oblivious",
+      "pressure"
+    ]
   },
   {
     "id": 322,
@@ -11919,7 +13388,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "oblivious",
+      "simple",
+      "own-tempo"
+    ]
   },
   {
     "id": 323,
@@ -11958,7 +13432,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "magma-armor",
+      "solid-rock",
+      "anger-point"
+    ]
   },
   {
     "id": 324,
@@ -11996,7 +13475,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "white-smoke",
+      "drought",
+      "shell-armor"
+    ]
   },
   {
     "id": 325,
@@ -12034,7 +13518,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "thick-fat",
+      "own-tempo",
+      "gluttony"
+    ]
   },
   {
     "id": 326,
@@ -12072,7 +13561,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "thick-fat",
+      "own-tempo",
+      "gluttony"
+    ]
   },
   {
     "id": 327,
@@ -12111,7 +13605,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "own-tempo",
+      "tangled-feet",
+      "contrary"
+    ]
   },
   {
     "id": 328,
@@ -12149,7 +13648,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "hyper-cutter",
+      "arena-trap",
+      "sheer-force"
+    ]
   },
   {
     "id": 329,
@@ -12180,7 +13684,10 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "levitate"
+    ]
   },
   {
     "id": 330,
@@ -12211,7 +13718,10 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "levitate"
+    ]
   },
   {
     "id": 331,
@@ -12246,7 +13756,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "sand-veil",
+      "water-absorb"
+    ]
   },
   {
     "id": 332,
@@ -12282,7 +13796,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "sand-veil",
+      "water-absorb"
+    ]
   },
   {
     "id": 333,
@@ -12318,7 +13836,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "natural-cure",
+      "cloud-nine"
+    ]
   },
   {
     "id": 334,
@@ -12354,7 +13876,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "natural-cure",
+      "cloud-nine"
+    ]
   },
   {
     "id": 335,
@@ -12388,7 +13914,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "immunity",
+      "toxic-boost"
+    ]
   },
   {
     "id": 336,
@@ -12423,7 +13953,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "shed-skin",
+      "infiltrator"
+    ]
   },
   {
     "id": 337,
@@ -12454,7 +13988,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "levitate"
+    ]
   },
   {
     "id": 338,
@@ -12485,7 +14022,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "levitate"
+    ]
   },
   {
     "id": 339,
@@ -12524,7 +14064,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "oblivious",
+      "anticipation",
+      "hydration"
+    ]
   },
   {
     "id": 340,
@@ -12563,7 +14108,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "oblivious",
+      "anticipation",
+      "hydration"
+    ]
   },
   {
     "id": 341,
@@ -12602,7 +14152,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "hyper-cutter",
+      "shell-armor",
+      "adaptability"
+    ]
   },
   {
     "id": 342,
@@ -12642,7 +14197,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "hyper-cutter",
+      "shell-armor",
+      "adaptability"
+    ]
   },
   {
     "id": 343,
@@ -12673,7 +14233,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "levitate"
+    ]
   },
   {
     "id": 344,
@@ -12704,7 +14267,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "levitate"
+    ]
   },
   {
     "id": 345,
@@ -12739,7 +14305,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "suction-cups",
+      "storm-drain"
+    ]
   },
   {
     "id": 346,
@@ -12774,7 +14344,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "suction-cups",
+      "storm-drain"
+    ]
   },
   {
     "id": 347,
@@ -12809,7 +14383,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "battle-armor",
+      "swift-swim"
+    ]
   },
   {
     "id": 348,
@@ -12844,7 +14422,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "battle-armor",
+      "swift-swim"
+    ]
   },
   {
     "id": 349,
@@ -12883,7 +14465,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "swift-swim",
+      "oblivious",
+      "adaptability"
+    ]
   },
   {
     "id": 350,
@@ -12922,7 +14509,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "marvel-scale",
+      "competitive",
+      "cute-charm"
+    ]
   },
   {
     "id": 351,
@@ -12953,7 +14545,10 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "forecast"
+    ]
   },
   {
     "id": 352,
@@ -12987,7 +14582,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "color-change",
+      "protean"
+    ]
   },
   {
     "id": 353,
@@ -13025,7 +14624,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "insomnia",
+      "frisk",
+      "cursed-body"
+    ]
   },
   {
     "id": 354,
@@ -13063,7 +14667,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "insomnia",
+      "frisk",
+      "cursed-body"
+    ]
   },
   {
     "id": 355,
@@ -13097,7 +14706,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "levitate",
+      "frisk"
+    ]
   },
   {
     "id": 356,
@@ -13131,7 +14744,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "pressure",
+      "frisk"
+    ]
   },
   {
     "id": 357,
@@ -13171,7 +14788,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "chlorophyll",
+      "solar-power",
+      "harvest"
+    ]
   },
   {
     "id": 358,
@@ -13201,7 +14823,10 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "levitate"
+    ]
   },
   {
     "id": 359,
@@ -13239,7 +14864,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "pressure",
+      "super-luck",
+      "justified"
+    ]
   },
   {
     "id": 360,
@@ -13273,7 +14903,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "shadow-tag",
+      "telepathy"
+    ]
   },
   {
     "id": 361,
@@ -13312,7 +14946,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "inner-focus",
+      "ice-body",
+      "moody"
+    ]
   },
   {
     "id": 362,
@@ -13351,7 +14990,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "inner-focus",
+      "ice-body",
+      "moody"
+    ]
   },
   {
     "id": 363,
@@ -13391,7 +15035,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "thick-fat",
+      "ice-body",
+      "oblivious"
+    ]
   },
   {
     "id": 364,
@@ -13431,7 +15080,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "thick-fat",
+      "ice-body",
+      "oblivious"
+    ]
   },
   {
     "id": 365,
@@ -13471,7 +15125,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "thick-fat",
+      "ice-body",
+      "oblivious"
+    ]
   },
   {
     "id": 366,
@@ -13505,7 +15164,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "shell-armor",
+      "rattled"
+    ]
   },
   {
     "id": 367,
@@ -13539,7 +15202,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "swift-swim",
+      "water-veil"
+    ]
   },
   {
     "id": 368,
@@ -13573,7 +15240,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "swift-swim",
+      "hydration"
+    ]
   },
   {
     "id": 369,
@@ -13613,7 +15284,12 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "swift-swim",
+      "rock-head",
+      "sturdy"
+    ]
   },
   {
     "id": 370,
@@ -13647,7 +15323,11 @@
         ]
       ],
       "gender": "25:75"
-    }
+    },
+    "abilities": [
+      "swift-swim",
+      "hydration"
+    ]
   },
   {
     "id": 371,
@@ -13681,7 +15361,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "rock-head",
+      "sheer-force"
+    ]
   },
   {
     "id": 372,
@@ -13715,7 +15399,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "rock-head",
+      "overcoat"
+    ]
   },
   {
     "id": 373,
@@ -13750,7 +15438,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "intimidate",
+      "moxie"
+    ]
   },
   {
     "id": 374,
@@ -13785,7 +15477,11 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "clear-body",
+      "light-metal"
+    ]
   },
   {
     "id": 375,
@@ -13820,7 +15516,11 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "clear-body",
+      "light-metal"
+    ]
   },
   {
     "id": 376,
@@ -13855,7 +15555,11 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "clear-body",
+      "light-metal"
+    ]
   },
   {
     "id": 377,
@@ -13889,7 +15593,11 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "clear-body",
+      "sturdy"
+    ]
   },
   {
     "id": 378,
@@ -13923,7 +15631,11 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "clear-body",
+      "ice-body"
+    ]
   },
   {
     "id": 379,
@@ -13957,7 +15669,11 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "clear-body",
+      "light-metal"
+    ]
   },
   {
     "id": 380,
@@ -13988,7 +15704,10 @@
         ]
       ],
       "gender": "0:100"
-    }
+    },
+    "abilities": [
+      "levitate"
+    ]
   },
   {
     "id": 381,
@@ -14019,7 +15738,10 @@
         ]
       ],
       "gender": "100:0"
-    }
+    },
+    "abilities": [
+      "levitate"
+    ]
   },
   {
     "id": 382,
@@ -14049,7 +15771,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "drizzle"
+    ]
   },
   {
     "id": 383,
@@ -14079,7 +15804,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "drought"
+    ]
   },
   {
     "id": 384,
@@ -14110,7 +15838,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "air-lock"
+    ]
   },
   {
     "id": 385,
@@ -14141,7 +15872,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "serene-grace"
+    ]
   },
   {
     "id": 386,
@@ -14171,7 +15905,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "pressure"
+    ]
   },
   {
     "id": 387,
@@ -14206,7 +15943,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "overgrow",
+      "shell-armor"
+    ]
   },
   {
     "id": 388,
@@ -14241,7 +15982,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "overgrow",
+      "shell-armor"
+    ]
   },
   {
     "id": 389,
@@ -14277,7 +16022,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "overgrow",
+      "shell-armor"
+    ]
   },
   {
     "id": 390,
@@ -14312,7 +16061,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "blaze",
+      "iron-fist"
+    ]
   },
   {
     "id": 391,
@@ -14348,7 +16101,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "blaze",
+      "iron-fist"
+    ]
   },
   {
     "id": 392,
@@ -14384,7 +16141,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "blaze",
+      "iron-fist"
+    ]
   },
   {
     "id": 393,
@@ -14419,7 +16180,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "torrent",
+      "competitive"
+    ]
   },
   {
     "id": 394,
@@ -14454,7 +16219,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "torrent",
+      "competitive"
+    ]
   },
   {
     "id": 395,
@@ -14490,7 +16259,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "torrent",
+      "competitive"
+    ]
   },
   {
     "id": 396,
@@ -14525,7 +16298,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "keen-eye",
+      "reckless"
+    ]
   },
   {
     "id": 397,
@@ -14560,7 +16337,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "intimidate",
+      "reckless"
+    ]
   },
   {
     "id": 398,
@@ -14595,7 +16376,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "intimidate",
+      "reckless"
+    ]
   },
   {
     "id": 399,
@@ -14634,7 +16419,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "simple",
+      "unaware",
+      "moody"
+    ]
   },
   {
     "id": 400,
@@ -14674,7 +16464,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "simple",
+      "unaware",
+      "moody"
+    ]
   },
   {
     "id": 401,
@@ -14708,7 +16503,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "shed-skin",
+      "run-away"
+    ]
   },
   {
     "id": 402,
@@ -14742,7 +16541,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "swarm",
+      "technician"
+    ]
   },
   {
     "id": 403,
@@ -14780,7 +16583,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "rivalry",
+      "intimidate",
+      "guts"
+    ]
   },
   {
     "id": 404,
@@ -14818,7 +16626,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "rivalry",
+      "intimidate",
+      "guts"
+    ]
   },
   {
     "id": 405,
@@ -14856,7 +16669,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "rivalry",
+      "intimidate",
+      "guts"
+    ]
   },
   {
     "id": 406,
@@ -14895,7 +16713,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "natural-cure",
+      "poison-point",
+      "leaf-guard"
+    ]
   },
   {
     "id": 407,
@@ -14935,7 +16758,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "natural-cure",
+      "poison-point",
+      "technician"
+    ]
   },
   {
     "id": 408,
@@ -14969,7 +16797,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "mold-breaker",
+      "sheer-force"
+    ]
   },
   {
     "id": 409,
@@ -15003,7 +16835,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "mold-breaker",
+      "sheer-force"
+    ]
   },
   {
     "id": 410,
@@ -15038,7 +16874,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "sturdy",
+      "soundproof"
+    ]
   },
   {
     "id": 411,
@@ -15073,7 +16913,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "sturdy",
+      "soundproof"
+    ]
   },
   {
     "id": 412,
@@ -15107,7 +16951,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "shed-skin",
+      "overcoat"
+    ]
   },
   {
     "id": 413,
@@ -15142,7 +16990,11 @@
         ]
       ],
       "gender": "0:100"
-    }
+    },
+    "abilities": [
+      "anticipation",
+      "overcoat"
+    ]
   },
   {
     "id": 414,
@@ -15177,7 +17029,11 @@
         ]
       ],
       "gender": "100:0"
-    }
+    },
+    "abilities": [
+      "swarm",
+      "tinted-lens"
+    ]
   },
   {
     "id": 415,
@@ -15212,7 +17068,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "honey-gather",
+      "hustle"
+    ]
   },
   {
     "id": 416,
@@ -15247,7 +17107,11 @@
         ]
       ],
       "gender": "0:100"
-    }
+    },
+    "abilities": [
+      "pressure",
+      "unnerve"
+    ]
   },
   {
     "id": 417,
@@ -15286,7 +17150,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "run-away",
+      "pickup",
+      "volt-absorb"
+    ]
   },
   {
     "id": 418,
@@ -15321,7 +17190,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "swift-swim",
+      "water-veil"
+    ]
   },
   {
     "id": 419,
@@ -15356,7 +17229,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "swift-swim",
+      "water-veil"
+    ]
   },
   {
     "id": 420,
@@ -15387,7 +17264,10 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "chlorophyll"
+    ]
   },
   {
     "id": 421,
@@ -15418,7 +17298,10 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "flower-gift"
+    ]
   },
   {
     "id": 422,
@@ -15457,7 +17340,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "sticky-hold",
+      "storm-drain",
+      "sand-force"
+    ]
   },
   {
     "id": 423,
@@ -15497,7 +17385,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "sticky-hold",
+      "storm-drain",
+      "sand-force"
+    ]
   },
   {
     "id": 424,
@@ -15535,7 +17428,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "technician",
+      "pickup",
+      "skill-link"
+    ]
   },
   {
     "id": 425,
@@ -15574,7 +17472,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "aftermath",
+      "unburden",
+      "flare-boost"
+    ]
   },
   {
     "id": 426,
@@ -15613,7 +17516,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "aftermath",
+      "unburden",
+      "flare-boost"
+    ]
   },
   {
     "id": 427,
@@ -15652,7 +17560,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "run-away",
+      "klutz",
+      "limber"
+    ]
   },
   {
     "id": 428,
@@ -15691,7 +17604,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "cute-charm",
+      "klutz",
+      "limber"
+    ]
   },
   {
     "id": 429,
@@ -15721,7 +17639,10 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "levitate"
+    ]
   },
   {
     "id": 430,
@@ -15760,7 +17681,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "insomnia",
+      "super-luck",
+      "moxie"
+    ]
   },
   {
     "id": 431,
@@ -15798,7 +17724,12 @@
         ]
       ],
       "gender": "25:75"
-    }
+    },
+    "abilities": [
+      "limber",
+      "own-tempo",
+      "keen-eye"
+    ]
   },
   {
     "id": 432,
@@ -15836,7 +17767,12 @@
         ]
       ],
       "gender": "25:75"
-    }
+    },
+    "abilities": [
+      "thick-fat",
+      "own-tempo",
+      "defiant"
+    ]
   },
   {
     "id": 433,
@@ -15866,7 +17802,10 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "levitate"
+    ]
   },
   {
     "id": 434,
@@ -15905,7 +17844,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "stench",
+      "aftermath",
+      "keen-eye"
+    ]
   },
   {
     "id": 435,
@@ -15944,7 +17888,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "stench",
+      "aftermath",
+      "keen-eye"
+    ]
   },
   {
     "id": 436,
@@ -15983,7 +17932,12 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "levitate",
+      "heatproof",
+      "heavy-metal"
+    ]
   },
   {
     "id": 437,
@@ -16022,7 +17976,12 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "levitate",
+      "heatproof",
+      "heavy-metal"
+    ]
   },
   {
     "id": 438,
@@ -16060,7 +18019,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "sturdy",
+      "rock-head",
+      "rattled"
+    ]
   },
   {
     "id": 439,
@@ -16099,7 +18063,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "soundproof",
+      "filter",
+      "technician"
+    ]
   },
   {
     "id": 440,
@@ -16137,7 +18106,12 @@
         ]
       ],
       "gender": "0:100"
-    }
+    },
+    "abilities": [
+      "natural-cure",
+      "serene-grace",
+      "friend-guard"
+    ]
   },
   {
     "id": 441,
@@ -16176,7 +18150,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "keen-eye",
+      "tangled-feet",
+      "big-pecks"
+    ]
   },
   {
     "id": 442,
@@ -16211,7 +18190,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "pressure",
+      "infiltrator"
+    ]
   },
   {
     "id": 443,
@@ -16247,7 +18230,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "sand-veil",
+      "rough-skin"
+    ]
   },
   {
     "id": 444,
@@ -16283,7 +18270,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "sand-veil",
+      "rough-skin"
+    ]
   },
   {
     "id": 445,
@@ -16319,7 +18310,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "sand-veil",
+      "rough-skin"
+    ]
   },
   {
     "id": 446,
@@ -16357,7 +18352,12 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "pickup",
+      "thick-fat",
+      "gluttony"
+    ]
   },
   {
     "id": 447,
@@ -16395,7 +18395,12 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "steadfast",
+      "inner-focus",
+      "prankster"
+    ]
   },
   {
     "id": 448,
@@ -16435,7 +18440,12 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "steadfast",
+      "inner-focus",
+      "justified"
+    ]
   },
   {
     "id": 449,
@@ -16469,7 +18479,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "sand-stream",
+      "sand-force"
+    ]
   },
   {
     "id": 450,
@@ -16503,7 +18517,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "sand-stream",
+      "sand-force"
+    ]
   },
   {
     "id": 451,
@@ -16543,7 +18561,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "battle-armor",
+      "sniper",
+      "keen-eye"
+    ]
   },
   {
     "id": 452,
@@ -16583,7 +18606,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "battle-armor",
+      "sniper",
+      "keen-eye"
+    ]
   },
   {
     "id": 453,
@@ -16622,7 +18650,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "anticipation",
+      "dry-skin",
+      "poison-touch"
+    ]
   },
   {
     "id": 454,
@@ -16661,7 +18694,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "anticipation",
+      "dry-skin",
+      "poison-touch"
+    ]
   },
   {
     "id": 455,
@@ -16691,7 +18729,10 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "levitate"
+    ]
   },
   {
     "id": 456,
@@ -16729,7 +18770,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "swift-swim",
+      "storm-drain",
+      "water-veil"
+    ]
   },
   {
     "id": 457,
@@ -16767,7 +18813,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "swift-swim",
+      "storm-drain",
+      "water-veil"
+    ]
   },
   {
     "id": 458,
@@ -16806,7 +18857,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "swift-swim",
+      "water-absorb",
+      "water-veil"
+    ]
   },
   {
     "id": 459,
@@ -16842,7 +18898,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "snow-warning",
+      "soundproof"
+    ]
   },
   {
     "id": 460,
@@ -16878,7 +18938,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "snow-warning",
+      "soundproof"
+    ]
   },
   {
     "id": 461,
@@ -16913,7 +18977,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "pressure",
+      "pickpocket"
+    ]
   },
   {
     "id": 462,
@@ -16952,7 +19020,12 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "magnet-pull",
+      "sturdy",
+      "analytic"
+    ]
   },
   {
     "id": 463,
@@ -16990,7 +19063,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "own-tempo",
+      "oblivious",
+      "cloud-nine"
+    ]
   },
   {
     "id": 464,
@@ -17030,7 +19108,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "lightning-rod",
+      "solid-rock",
+      "reckless"
+    ]
   },
   {
     "id": 465,
@@ -17068,7 +19151,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "chlorophyll",
+      "leaf-guard",
+      "regenerator"
+    ]
   },
   {
     "id": 466,
@@ -17102,7 +19190,11 @@
         ]
       ],
       "gender": "75:25"
-    }
+    },
+    "abilities": [
+      "motor-drive",
+      "vital-spirit"
+    ]
   },
   {
     "id": 467,
@@ -17136,7 +19228,11 @@
         ]
       ],
       "gender": "75:25"
-    }
+    },
+    "abilities": [
+      "flame-body",
+      "vital-spirit"
+    ]
   },
   {
     "id": 468,
@@ -17176,7 +19272,12 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "hustle",
+      "serene-grace",
+      "super-luck"
+    ]
   },
   {
     "id": 469,
@@ -17215,7 +19316,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "speed-boost",
+      "tinted-lens",
+      "frisk"
+    ]
   },
   {
     "id": 470,
@@ -17249,7 +19355,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "leaf-guard",
+      "chlorophyll"
+    ]
   },
   {
     "id": 471,
@@ -17283,7 +19393,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "snow-cloak",
+      "ice-body"
+    ]
   },
   {
     "id": 472,
@@ -17322,7 +19436,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "hyper-cutter",
+      "sand-veil",
+      "poison-heal"
+    ]
   },
   {
     "id": 473,
@@ -17361,7 +19480,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "oblivious",
+      "snow-cloak",
+      "thick-fat"
+    ]
   },
   {
     "id": 474,
@@ -17399,7 +19523,12 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "adaptability",
+      "download",
+      "analytic"
+    ]
   },
   {
     "id": 475,
@@ -17434,7 +19563,12 @@
         ]
       ],
       "gender": "100:0"
-    }
+    },
+    "abilities": [
+      "steadfast",
+      "sharpness",
+      "justified"
+    ]
   },
   {
     "id": 476,
@@ -17473,7 +19607,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "sturdy",
+      "magnet-pull",
+      "sand-force"
+    ]
   },
   {
     "id": 477,
@@ -17507,7 +19646,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "pressure",
+      "frisk"
+    ]
   },
   {
     "id": 478,
@@ -17543,7 +19686,11 @@
         ]
       ],
       "gender": "0:100"
-    }
+    },
+    "abilities": [
+      "snow-cloak",
+      "cursed-body"
+    ]
   },
   {
     "id": 479,
@@ -17574,7 +19721,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "levitate"
+    ]
   },
   {
     "id": 480,
@@ -17604,7 +19754,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "levitate"
+    ]
   },
   {
     "id": 481,
@@ -17634,7 +19787,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "levitate"
+    ]
   },
   {
     "id": 482,
@@ -17664,7 +19820,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "levitate"
+    ]
   },
   {
     "id": 483,
@@ -17699,7 +19858,11 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "pressure",
+      "telepathy"
+    ]
   },
   {
     "id": 484,
@@ -17734,7 +19897,11 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "pressure",
+      "telepathy"
+    ]
   },
   {
     "id": 485,
@@ -17769,7 +19936,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "flash-fire",
+      "flame-body"
+    ]
   },
   {
     "id": 486,
@@ -17799,7 +19970,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "slow-start"
+    ]
   },
   {
     "id": 487,
@@ -17834,7 +20008,11 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "pressure",
+      "telepathy"
+    ]
   },
   {
     "id": 488,
@@ -17864,7 +20042,10 @@
         ]
       ],
       "gender": "0:100"
-    }
+    },
+    "abilities": [
+      "levitate"
+    ]
   },
   {
     "id": 489,
@@ -17895,7 +20076,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "hydration"
+    ]
   },
   {
     "id": 490,
@@ -17926,7 +20110,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "hydration"
+    ]
   },
   {
     "id": 491,
@@ -17956,7 +20143,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "bad-dreams"
+    ]
   },
   {
     "id": 492,
@@ -17986,7 +20176,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "natural-cure"
+    ]
   },
   {
     "id": 493,
@@ -18016,7 +20209,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "multitype"
+    ]
   },
   {
     "id": 494,
@@ -18047,7 +20243,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "victory-star"
+    ]
   },
   {
     "id": 495,
@@ -18082,7 +20281,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "overgrow",
+      "contrary"
+    ]
   },
   {
     "id": 496,
@@ -18117,7 +20320,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "overgrow",
+      "contrary"
+    ]
   },
   {
     "id": 497,
@@ -18152,7 +20359,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "overgrow",
+      "contrary"
+    ]
   },
   {
     "id": 498,
@@ -18186,7 +20397,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "blaze",
+      "thick-fat"
+    ]
   },
   {
     "id": 499,
@@ -18221,7 +20436,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "blaze",
+      "thick-fat"
+    ]
   },
   {
     "id": 500,
@@ -18256,7 +20475,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "blaze",
+      "reckless"
+    ]
   },
   {
     "id": 501,
@@ -18290,7 +20513,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "torrent",
+      "shell-armor"
+    ]
   },
   {
     "id": 502,
@@ -18324,7 +20551,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "torrent",
+      "shell-armor"
+    ]
   },
   {
     "id": 503,
@@ -18358,7 +20589,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "torrent",
+      "shell-armor"
+    ]
   },
   {
     "id": 504,
@@ -18396,7 +20631,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "run-away",
+      "keen-eye",
+      "analytic"
+    ]
   },
   {
     "id": 505,
@@ -18434,7 +20674,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "illuminate",
+      "keen-eye",
+      "analytic"
+    ]
   },
   {
     "id": 506,
@@ -18472,7 +20717,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "vital-spirit",
+      "pickup",
+      "run-away"
+    ]
   },
   {
     "id": 507,
@@ -18510,7 +20760,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "intimidate",
+      "sand-rush",
+      "scrappy"
+    ]
   },
   {
     "id": 508,
@@ -18548,7 +20803,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "intimidate",
+      "sand-rush",
+      "scrappy"
+    ]
   },
   {
     "id": 509,
@@ -18586,7 +20846,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "limber",
+      "unburden",
+      "prankster"
+    ]
   },
   {
     "id": 510,
@@ -18624,7 +20889,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "limber",
+      "unburden",
+      "prankster"
+    ]
   },
   {
     "id": 511,
@@ -18658,7 +20928,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "gluttony",
+      "overgrow"
+    ]
   },
   {
     "id": 512,
@@ -18692,7 +20966,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "gluttony",
+      "overgrow"
+    ]
   },
   {
     "id": 513,
@@ -18726,7 +21004,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "gluttony",
+      "blaze"
+    ]
   },
   {
     "id": 514,
@@ -18760,7 +21042,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "gluttony",
+      "blaze"
+    ]
   },
   {
     "id": 515,
@@ -18794,7 +21080,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "gluttony",
+      "torrent"
+    ]
   },
   {
     "id": 516,
@@ -18828,7 +21118,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "gluttony",
+      "torrent"
+    ]
   },
   {
     "id": 517,
@@ -18866,7 +21160,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "forewarn",
+      "synchronize",
+      "telepathy"
+    ]
   },
   {
     "id": 518,
@@ -18904,7 +21203,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "forewarn",
+      "synchronize",
+      "telepathy"
+    ]
   },
   {
     "id": 519,
@@ -18943,7 +21247,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "big-pecks",
+      "super-luck",
+      "rivalry"
+    ]
   },
   {
     "id": 520,
@@ -18982,7 +21291,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "big-pecks",
+      "super-luck",
+      "rivalry"
+    ]
   },
   {
     "id": 521,
@@ -19021,7 +21335,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "big-pecks",
+      "super-luck",
+      "rivalry"
+    ]
   },
   {
     "id": 522,
@@ -19059,7 +21378,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "lightning-rod",
+      "motor-drive",
+      "sap-sipper"
+    ]
   },
   {
     "id": 523,
@@ -19097,7 +21421,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "lightning-rod",
+      "motor-drive",
+      "sap-sipper"
+    ]
   },
   {
     "id": 524,
@@ -19135,7 +21464,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "sturdy",
+      "weak-armor",
+      "sand-force"
+    ]
   },
   {
     "id": 525,
@@ -19173,7 +21507,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "sturdy",
+      "weak-armor",
+      "sand-force"
+    ]
   },
   {
     "id": 526,
@@ -19211,7 +21550,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "sturdy",
+      "sand-stream",
+      "sand-force"
+    ]
   },
   {
     "id": 527,
@@ -19251,7 +21595,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "unaware",
+      "klutz",
+      "simple"
+    ]
   },
   {
     "id": 528,
@@ -19291,7 +21640,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "unaware",
+      "klutz",
+      "simple"
+    ]
   },
   {
     "id": 529,
@@ -19329,7 +21683,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "sand-rush",
+      "sand-force",
+      "mold-breaker"
+    ]
   },
   {
     "id": 530,
@@ -19368,7 +21727,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "sand-rush",
+      "sand-force",
+      "mold-breaker"
+    ]
   },
   {
     "id": 531,
@@ -19406,7 +21770,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "healer",
+      "regenerator",
+      "klutz"
+    ]
   },
   {
     "id": 532,
@@ -19444,7 +21813,12 @@
         ]
       ],
       "gender": "75:25"
-    }
+    },
+    "abilities": [
+      "guts",
+      "sheer-force",
+      "iron-fist"
+    ]
   },
   {
     "id": 533,
@@ -19482,7 +21856,12 @@
         ]
       ],
       "gender": "75:25"
-    }
+    },
+    "abilities": [
+      "guts",
+      "sheer-force",
+      "iron-fist"
+    ]
   },
   {
     "id": 534,
@@ -19520,7 +21899,12 @@
         ]
       ],
       "gender": "75:25"
-    }
+    },
+    "abilities": [
+      "guts",
+      "sheer-force",
+      "iron-fist"
+    ]
   },
   {
     "id": 535,
@@ -19558,7 +21942,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "swift-swim",
+      "hydration",
+      "water-absorb"
+    ]
   },
   {
     "id": 536,
@@ -19597,7 +21986,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "swift-swim",
+      "hydration",
+      "water-absorb"
+    ]
   },
   {
     "id": 537,
@@ -19636,7 +22030,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "swift-swim",
+      "poison-touch",
+      "water-absorb"
+    ]
   },
   {
     "id": 538,
@@ -19674,7 +22073,12 @@
         ]
       ],
       "gender": "100:0"
-    }
+    },
+    "abilities": [
+      "guts",
+      "inner-focus",
+      "mold-breaker"
+    ]
   },
   {
     "id": 539,
@@ -19712,7 +22116,12 @@
         ]
       ],
       "gender": "100:0"
-    }
+    },
+    "abilities": [
+      "sturdy",
+      "inner-focus",
+      "mold-breaker"
+    ]
   },
   {
     "id": 540,
@@ -19751,7 +22160,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "swarm",
+      "chlorophyll",
+      "overcoat"
+    ]
   },
   {
     "id": 541,
@@ -19790,7 +22204,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "leaf-guard",
+      "chlorophyll",
+      "overcoat"
+    ]
   },
   {
     "id": 542,
@@ -19829,7 +22248,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "swarm",
+      "chlorophyll",
+      "overcoat"
+    ]
   },
   {
     "id": 543,
@@ -19868,7 +22292,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "poison-point",
+      "swarm",
+      "speed-boost"
+    ]
   },
   {
     "id": 544,
@@ -19907,7 +22336,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "poison-point",
+      "swarm",
+      "speed-boost"
+    ]
   },
   {
     "id": 545,
@@ -19946,7 +22380,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "poison-point",
+      "swarm",
+      "speed-boost"
+    ]
   },
   {
     "id": 546,
@@ -19986,7 +22425,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "prankster",
+      "infiltrator",
+      "chlorophyll"
+    ]
   },
   {
     "id": 547,
@@ -20026,7 +22470,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "prankster",
+      "infiltrator",
+      "chlorophyll"
+    ]
   },
   {
     "id": 548,
@@ -20064,7 +22513,12 @@
         ]
       ],
       "gender": "0:100"
-    }
+    },
+    "abilities": [
+      "chlorophyll",
+      "own-tempo",
+      "leaf-guard"
+    ]
   },
   {
     "id": 549,
@@ -20102,7 +22556,12 @@
         ]
       ],
       "gender": "0:100"
-    }
+    },
+    "abilities": [
+      "chlorophyll",
+      "own-tempo",
+      "leaf-guard"
+    ]
   },
   {
     "id": 550,
@@ -20140,7 +22599,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "reckless",
+      "adaptability",
+      "mold-breaker"
+    ]
   },
   {
     "id": 551,
@@ -20179,7 +22643,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "intimidate",
+      "moxie",
+      "anger-point"
+    ]
   },
   {
     "id": 552,
@@ -20218,7 +22687,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "intimidate",
+      "moxie",
+      "anger-point"
+    ]
   },
   {
     "id": 553,
@@ -20257,7 +22731,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "intimidate",
+      "moxie",
+      "anger-point"
+    ]
   },
   {
     "id": 554,
@@ -20291,7 +22770,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "hustle",
+      "inner-focus"
+    ]
   },
   {
     "id": 555,
@@ -20325,7 +22808,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "sheer-force",
+      "zen-mode"
+    ]
   },
   {
     "id": 556,
@@ -20363,7 +22850,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "water-absorb",
+      "chlorophyll",
+      "storm-drain"
+    ]
   },
   {
     "id": 557,
@@ -20403,7 +22895,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "sturdy",
+      "shell-armor",
+      "weak-armor"
+    ]
   },
   {
     "id": 558,
@@ -20443,7 +22940,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "sturdy",
+      "shell-armor",
+      "weak-armor"
+    ]
   },
   {
     "id": 559,
@@ -20483,7 +22985,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "shed-skin",
+      "moxie",
+      "intimidate"
+    ]
   },
   {
     "id": 560,
@@ -20523,7 +23030,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "shed-skin",
+      "moxie",
+      "intimidate"
+    ]
   },
   {
     "id": 561,
@@ -20562,7 +23074,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "wonder-skin",
+      "magic-guard",
+      "tinted-lens"
+    ]
   },
   {
     "id": 562,
@@ -20593,7 +23110,10 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "mummy"
+    ]
   },
   {
     "id": 563,
@@ -20624,7 +23144,10 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "mummy"
+    ]
   },
   {
     "id": 564,
@@ -20664,7 +23187,12 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "solid-rock",
+      "sturdy",
+      "swift-swim"
+    ]
   },
   {
     "id": 565,
@@ -20704,7 +23232,12 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "solid-rock",
+      "sturdy",
+      "swift-swim"
+    ]
   },
   {
     "id": 566,
@@ -20736,7 +23269,10 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "defeatist"
+    ]
   },
   {
     "id": 567,
@@ -20768,7 +23304,10 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "defeatist"
+    ]
   },
   {
     "id": 568,
@@ -20806,7 +23345,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "stench",
+      "sticky-hold",
+      "aftermath"
+    ]
   },
   {
     "id": 569,
@@ -20844,7 +23388,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "stench",
+      "weak-armor",
+      "aftermath"
+    ]
   },
   {
     "id": 570,
@@ -20874,7 +23423,10 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "illusion"
+    ]
   },
   {
     "id": 571,
@@ -20904,7 +23456,10 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "illusion"
+    ]
   },
   {
     "id": 572,
@@ -20942,7 +23497,12 @@
         ]
       ],
       "gender": "25:75"
-    }
+    },
+    "abilities": [
+      "cute-charm",
+      "technician",
+      "skill-link"
+    ]
   },
   {
     "id": 573,
@@ -20980,7 +23540,12 @@
         ]
       ],
       "gender": "25:75"
-    }
+    },
+    "abilities": [
+      "cute-charm",
+      "technician",
+      "skill-link"
+    ]
   },
   {
     "id": 574,
@@ -21018,7 +23583,12 @@
         ]
       ],
       "gender": "25:75"
-    }
+    },
+    "abilities": [
+      "frisk",
+      "competitive",
+      "shadow-tag"
+    ]
   },
   {
     "id": 575,
@@ -21056,7 +23626,12 @@
         ]
       ],
       "gender": "25:75"
-    }
+    },
+    "abilities": [
+      "frisk",
+      "competitive",
+      "shadow-tag"
+    ]
   },
   {
     "id": 576,
@@ -21094,7 +23669,12 @@
         ]
       ],
       "gender": "25:75"
-    }
+    },
+    "abilities": [
+      "frisk",
+      "competitive",
+      "shadow-tag"
+    ]
   },
   {
     "id": 577,
@@ -21132,7 +23712,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "overcoat",
+      "magic-guard",
+      "regenerator"
+    ]
   },
   {
     "id": 578,
@@ -21170,7 +23755,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "overcoat",
+      "magic-guard",
+      "regenerator"
+    ]
   },
   {
     "id": 579,
@@ -21208,7 +23798,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "overcoat",
+      "magic-guard",
+      "regenerator"
+    ]
   },
   {
     "id": 580,
@@ -21248,7 +23843,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "keen-eye",
+      "big-pecks",
+      "hydration"
+    ]
   },
   {
     "id": 581,
@@ -21288,7 +23888,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "keen-eye",
+      "big-pecks",
+      "hydration"
+    ]
   },
   {
     "id": 582,
@@ -21326,7 +23931,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "ice-body",
+      "snow-cloak",
+      "weak-armor"
+    ]
   },
   {
     "id": 583,
@@ -21364,7 +23974,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "ice-body",
+      "snow-cloak",
+      "weak-armor"
+    ]
   },
   {
     "id": 584,
@@ -21402,7 +24017,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "ice-body",
+      "snow-warning",
+      "weak-armor"
+    ]
   },
   {
     "id": 585,
@@ -21441,7 +24061,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "chlorophyll",
+      "sap-sipper",
+      "serene-grace"
+    ]
   },
   {
     "id": 586,
@@ -21480,7 +24105,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "chlorophyll",
+      "sap-sipper",
+      "serene-grace"
+    ]
   },
   {
     "id": 587,
@@ -21515,7 +24145,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "static",
+      "motor-drive"
+    ]
   },
   {
     "id": 588,
@@ -21553,7 +24187,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "swarm",
+      "shed-skin",
+      "no-guard"
+    ]
   },
   {
     "id": 589,
@@ -21592,7 +24231,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "swarm",
+      "shell-armor",
+      "overcoat"
+    ]
   },
   {
     "id": 590,
@@ -21627,7 +24271,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "effect-spore",
+      "regenerator"
+    ]
   },
   {
     "id": 591,
@@ -21662,7 +24310,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "effect-spore",
+      "regenerator"
+    ]
   },
   {
     "id": 592,
@@ -21701,7 +24353,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "water-absorb",
+      "cursed-body",
+      "damp"
+    ]
   },
   {
     "id": 593,
@@ -21740,7 +24397,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "water-absorb",
+      "cursed-body",
+      "damp"
+    ]
   },
   {
     "id": 594,
@@ -21779,7 +24441,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "healer",
+      "hydration",
+      "regenerator"
+    ]
   },
   {
     "id": 595,
@@ -21818,7 +24485,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "compound-eyes",
+      "unnerve",
+      "swarm"
+    ]
   },
   {
     "id": 596,
@@ -21857,7 +24529,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "compound-eyes",
+      "unnerve",
+      "swarm"
+    ]
   },
   {
     "id": 597,
@@ -21889,7 +24566,10 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "iron-barbs"
+    ]
   },
   {
     "id": 598,
@@ -21925,7 +24605,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "iron-barbs",
+      "anticipation"
+    ]
   },
   {
     "id": 599,
@@ -21963,7 +24647,12 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "plus",
+      "minus",
+      "clear-body"
+    ]
   },
   {
     "id": 600,
@@ -22001,7 +24690,12 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "plus",
+      "minus",
+      "clear-body"
+    ]
   },
   {
     "id": 601,
@@ -22039,7 +24733,12 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "plus",
+      "minus",
+      "clear-body"
+    ]
   },
   {
     "id": 602,
@@ -22069,7 +24768,10 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "levitate"
+    ]
   },
   {
     "id": 603,
@@ -22099,7 +24801,10 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "levitate"
+    ]
   },
   {
     "id": 604,
@@ -22129,7 +24834,10 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "levitate"
+    ]
   },
   {
     "id": 605,
@@ -22167,7 +24875,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "telepathy",
+      "synchronize",
+      "analytic"
+    ]
   },
   {
     "id": 606,
@@ -22205,7 +24918,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "telepathy",
+      "synchronize",
+      "analytic"
+    ]
   },
   {
     "id": 607,
@@ -22244,7 +24962,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "flash-fire",
+      "flame-body",
+      "infiltrator"
+    ]
   },
   {
     "id": 608,
@@ -22283,7 +25006,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "flash-fire",
+      "flame-body",
+      "infiltrator"
+    ]
   },
   {
     "id": 609,
@@ -22322,7 +25050,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "flash-fire",
+      "flame-body",
+      "infiltrator"
+    ]
   },
   {
     "id": 610,
@@ -22361,7 +25094,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "rivalry",
+      "mold-breaker",
+      "unnerve"
+    ]
   },
   {
     "id": 611,
@@ -22400,7 +25138,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "rivalry",
+      "mold-breaker",
+      "unnerve"
+    ]
   },
   {
     "id": 612,
@@ -22439,7 +25182,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "rivalry",
+      "mold-breaker",
+      "unnerve"
+    ]
   },
   {
     "id": 613,
@@ -22477,7 +25225,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "snow-cloak",
+      "slush-rush",
+      "rattled"
+    ]
   },
   {
     "id": 614,
@@ -22515,7 +25268,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "snow-cloak",
+      "slush-rush",
+      "swift-swim"
+    ]
   },
   {
     "id": 615,
@@ -22545,7 +25303,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "levitate"
+    ]
   },
   {
     "id": 616,
@@ -22583,7 +25344,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "hydration",
+      "shell-armor",
+      "overcoat"
+    ]
   },
   {
     "id": 617,
@@ -22621,7 +25387,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "hydration",
+      "sticky-hold",
+      "unburden"
+    ]
   },
   {
     "id": 618,
@@ -22661,7 +25432,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "static",
+      "limber",
+      "sand-veil"
+    ]
   },
   {
     "id": 619,
@@ -22700,7 +25476,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "inner-focus",
+      "regenerator",
+      "reckless"
+    ]
   },
   {
     "id": 620,
@@ -22739,7 +25520,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "inner-focus",
+      "regenerator",
+      "reckless"
+    ]
   },
   {
     "id": 621,
@@ -22778,7 +25564,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "rough-skin",
+      "sheer-force",
+      "mold-breaker"
+    ]
   },
   {
     "id": 622,
@@ -22817,7 +25608,12 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "iron-fist",
+      "klutz",
+      "no-guard"
+    ]
   },
   {
     "id": 623,
@@ -22856,7 +25652,12 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "iron-fist",
+      "klutz",
+      "no-guard"
+    ]
   },
   {
     "id": 624,
@@ -22895,7 +25696,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "defiant",
+      "inner-focus",
+      "pressure"
+    ]
   },
   {
     "id": 625,
@@ -22934,7 +25740,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "defiant",
+      "inner-focus",
+      "pressure"
+    ]
   },
   {
     "id": 626,
@@ -22972,7 +25783,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "reckless",
+      "sap-sipper",
+      "soundproof"
+    ]
   },
   {
     "id": 627,
@@ -23011,7 +25827,12 @@
         ]
       ],
       "gender": "100:0"
-    }
+    },
+    "abilities": [
+      "keen-eye",
+      "sheer-force",
+      "hustle"
+    ]
   },
   {
     "id": 628,
@@ -23050,7 +25871,12 @@
         ]
       ],
       "gender": "100:0"
-    }
+    },
+    "abilities": [
+      "keen-eye",
+      "sheer-force",
+      "defiant"
+    ]
   },
   {
     "id": 629,
@@ -23089,7 +25915,12 @@
         ]
       ],
       "gender": "0:100"
-    }
+    },
+    "abilities": [
+      "big-pecks",
+      "overcoat",
+      "weak-armor"
+    ]
   },
   {
     "id": 630,
@@ -23128,7 +25959,12 @@
         ]
       ],
       "gender": "0:100"
-    }
+    },
+    "abilities": [
+      "big-pecks",
+      "overcoat",
+      "weak-armor"
+    ]
   },
   {
     "id": 631,
@@ -23166,7 +26002,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "gluttony",
+      "flash-fire",
+      "white-smoke"
+    ]
   },
   {
     "id": 632,
@@ -23205,7 +26046,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "swarm",
+      "hustle",
+      "truant"
+    ]
   },
   {
     "id": 633,
@@ -23236,7 +26082,10 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "hustle"
+    ]
   },
   {
     "id": 634,
@@ -23267,7 +26116,10 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "hustle"
+    ]
   },
   {
     "id": 635,
@@ -23298,7 +26150,10 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "levitate"
+    ]
   },
   {
     "id": 636,
@@ -23333,7 +26188,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "flame-body",
+      "swarm"
+    ]
   },
   {
     "id": 637,
@@ -23368,7 +26227,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "flame-body",
+      "swarm"
+    ]
   },
   {
     "id": 638,
@@ -23399,7 +26262,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "justified"
+    ]
   },
   {
     "id": 639,
@@ -23430,7 +26296,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "justified"
+    ]
   },
   {
     "id": 640,
@@ -23461,7 +26330,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "justified"
+    ]
   },
   {
     "id": 641,
@@ -23495,7 +26367,11 @@
         ]
       ],
       "gender": "100:0"
-    }
+    },
+    "abilities": [
+      "prankster",
+      "defiant"
+    ]
   },
   {
     "id": 642,
@@ -23530,7 +26406,11 @@
         ]
       ],
       "gender": "100:0"
-    }
+    },
+    "abilities": [
+      "prankster",
+      "defiant"
+    ]
   },
   {
     "id": 643,
@@ -23561,7 +26441,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "turboblaze"
+    ]
   },
   {
     "id": 644,
@@ -23592,7 +26475,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "teravolt"
+    ]
   },
   {
     "id": 645,
@@ -23627,7 +26513,11 @@
         ]
       ],
       "gender": "100:0"
-    }
+    },
+    "abilities": [
+      "sand-force",
+      "sheer-force"
+    ]
   },
   {
     "id": 646,
@@ -23658,7 +26548,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "pressure"
+    ]
   },
   {
     "id": 647,
@@ -23689,7 +26582,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "justified"
+    ]
   },
   {
     "id": 648,
@@ -23720,7 +26616,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "serene-grace"
+    ]
   },
   {
     "id": 649,
@@ -23751,7 +26650,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "download"
+    ]
   },
   {
     "id": 650,
@@ -23785,7 +26687,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "overgrow",
+      "bulletproof"
+    ]
   },
   {
     "id": 651,
@@ -23819,7 +26725,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "overgrow",
+      "bulletproof"
+    ]
   },
   {
     "id": 652,
@@ -23854,7 +26764,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "overgrow",
+      "bulletproof"
+    ]
   },
   {
     "id": 653,
@@ -23888,7 +26802,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "blaze",
+      "magician"
+    ]
   },
   {
     "id": 654,
@@ -23922,7 +26840,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "blaze",
+      "magician"
+    ]
   },
   {
     "id": 655,
@@ -23957,7 +26879,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "blaze",
+      "magician"
+    ]
   },
   {
     "id": 656,
@@ -23991,7 +26917,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "torrent",
+      "protean"
+    ]
   },
   {
     "id": 657,
@@ -24025,7 +26955,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "torrent",
+      "protean"
+    ]
   },
   {
     "id": 658,
@@ -24060,7 +26994,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "torrent",
+      "protean"
+    ]
   },
   {
     "id": 659,
@@ -24098,7 +27036,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "pickup",
+      "cheek-pouch",
+      "huge-power"
+    ]
   },
   {
     "id": 660,
@@ -24137,7 +27080,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "pickup",
+      "cheek-pouch",
+      "huge-power"
+    ]
   },
   {
     "id": 661,
@@ -24172,7 +27120,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "big-pecks",
+      "gale-wings"
+    ]
   },
   {
     "id": 662,
@@ -24207,7 +27159,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "flame-body",
+      "gale-wings"
+    ]
   },
   {
     "id": 663,
@@ -24242,7 +27198,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "flame-body",
+      "gale-wings"
+    ]
   },
   {
     "id": 664,
@@ -24280,7 +27240,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "shield-dust",
+      "compound-eyes",
+      "friend-guard"
+    ]
   },
   {
     "id": 665,
@@ -24314,7 +27279,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "shed-skin",
+      "friend-guard"
+    ]
   },
   {
     "id": 666,
@@ -24353,7 +27322,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "shield-dust",
+      "compound-eyes",
+      "friend-guard"
+    ]
   },
   {
     "id": 667,
@@ -24392,7 +27366,12 @@
         ]
       ],
       "gender": "12.5:87.5"
-    }
+    },
+    "abilities": [
+      "rivalry",
+      "unnerve",
+      "moxie"
+    ]
   },
   {
     "id": 668,
@@ -24431,7 +27410,12 @@
         ]
       ],
       "gender": "12.5:87.5"
-    }
+    },
+    "abilities": [
+      "rivalry",
+      "unnerve",
+      "moxie"
+    ]
   },
   {
     "id": 669,
@@ -24465,7 +27449,11 @@
         ]
       ],
       "gender": "0:100"
-    }
+    },
+    "abilities": [
+      "flower-veil",
+      "symbiosis"
+    ]
   },
   {
     "id": 670,
@@ -24499,7 +27487,11 @@
         ]
       ],
       "gender": "0:100"
-    }
+    },
+    "abilities": [
+      "flower-veil",
+      "symbiosis"
+    ]
   },
   {
     "id": 671,
@@ -24533,7 +27525,11 @@
         ]
       ],
       "gender": "0:100"
-    }
+    },
+    "abilities": [
+      "flower-veil",
+      "symbiosis"
+    ]
   },
   {
     "id": 672,
@@ -24567,7 +27563,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "sap-sipper",
+      "grass-pelt"
+    ]
   },
   {
     "id": 673,
@@ -24601,7 +27601,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "sap-sipper",
+      "grass-pelt"
+    ]
   },
   {
     "id": 674,
@@ -24640,7 +27644,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "iron-fist",
+      "mold-breaker",
+      "scrappy"
+    ]
   },
   {
     "id": 675,
@@ -24680,7 +27689,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "iron-fist",
+      "mold-breaker",
+      "scrappy"
+    ]
   },
   {
     "id": 676,
@@ -24710,7 +27724,10 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "fur-coat"
+    ]
   },
   {
     "id": 677,
@@ -24748,7 +27765,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "keen-eye",
+      "infiltrator",
+      "own-tempo"
+    ]
   },
   {
     "id": 678,
@@ -24786,7 +27808,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "keen-eye",
+      "infiltrator",
+      "prankster"
+    ]
   },
   {
     "id": 679,
@@ -24817,7 +27844,10 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "no-guard"
+    ]
   },
   {
     "id": 680,
@@ -24848,7 +27878,10 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "no-guard"
+    ]
   },
   {
     "id": 681,
@@ -24879,7 +27912,10 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "stance-change"
+    ]
   },
   {
     "id": 682,
@@ -24913,7 +27949,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "healer",
+      "aroma-veil"
+    ]
   },
   {
     "id": 683,
@@ -24947,7 +27987,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "healer",
+      "aroma-veil"
+    ]
   },
   {
     "id": 684,
@@ -24981,7 +28025,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "sweet-veil",
+      "unburden"
+    ]
   },
   {
     "id": 685,
@@ -25015,7 +28063,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "sweet-veil",
+      "unburden"
+    ]
   },
   {
     "id": 686,
@@ -25055,7 +28107,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "contrary",
+      "suction-cups",
+      "infiltrator"
+    ]
   },
   {
     "id": 687,
@@ -25095,7 +28152,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "contrary",
+      "suction-cups",
+      "infiltrator"
+    ]
   },
   {
     "id": 688,
@@ -25134,7 +28196,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "tough-claws",
+      "sniper",
+      "pickpocket"
+    ]
   },
   {
     "id": 689,
@@ -25173,7 +28240,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "tough-claws",
+      "sniper",
+      "pickpocket"
+    ]
   },
   {
     "id": 690,
@@ -25213,7 +28285,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "poison-point",
+      "poison-touch",
+      "adaptability"
+    ]
   },
   {
     "id": 691,
@@ -25253,7 +28330,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "poison-point",
+      "poison-touch",
+      "adaptability"
+    ]
   },
   {
     "id": 692,
@@ -25284,7 +28366,10 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "mega-launcher"
+    ]
   },
   {
     "id": 693,
@@ -25315,7 +28400,10 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "mega-launcher"
+    ]
   },
   {
     "id": 694,
@@ -25355,7 +28443,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "dry-skin",
+      "sand-veil",
+      "solar-power"
+    ]
   },
   {
     "id": 695,
@@ -25395,7 +28488,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "dry-skin",
+      "sand-veil",
+      "solar-power"
+    ]
   },
   {
     "id": 696,
@@ -25431,7 +28529,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "strong-jaw",
+      "sturdy"
+    ]
   },
   {
     "id": 697,
@@ -25467,7 +28569,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "strong-jaw",
+      "rock-head"
+    ]
   },
   {
     "id": 698,
@@ -25502,7 +28608,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "refrigerate",
+      "snow-warning"
+    ]
   },
   {
     "id": 699,
@@ -25537,7 +28647,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "refrigerate",
+      "snow-warning"
+    ]
   },
   {
     "id": 700,
@@ -25571,7 +28685,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "cute-charm",
+      "pixilate"
+    ]
   },
   {
     "id": 701,
@@ -25610,7 +28728,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "limber",
+      "unburden",
+      "mold-breaker"
+    ]
   },
   {
     "id": 702,
@@ -25650,7 +28773,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "cheek-pouch",
+      "pickup",
+      "plus"
+    ]
   },
   {
     "id": 703,
@@ -25686,7 +28814,11 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "clear-body",
+      "sturdy"
+    ]
   },
   {
     "id": 704,
@@ -25724,7 +28856,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "sap-sipper",
+      "hydration",
+      "gooey"
+    ]
   },
   {
     "id": 705,
@@ -25762,7 +28899,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "sap-sipper",
+      "hydration",
+      "gooey"
+    ]
   },
   {
     "id": 706,
@@ -25800,7 +28942,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "sap-sipper",
+      "hydration",
+      "gooey"
+    ]
   },
   {
     "id": 707,
@@ -25835,7 +28982,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "prankster",
+      "magician"
+    ]
   },
   {
     "id": 708,
@@ -25875,7 +29026,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "natural-cure",
+      "frisk",
+      "harvest"
+    ]
   },
   {
     "id": 709,
@@ -25915,7 +29071,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "natural-cure",
+      "frisk",
+      "harvest"
+    ]
   },
   {
     "id": 710,
@@ -25954,7 +29115,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "pickup",
+      "frisk",
+      "insomnia"
+    ]
   },
   {
     "id": 711,
@@ -25993,7 +29159,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "pickup",
+      "frisk",
+      "insomnia"
+    ]
   },
   {
     "id": 712,
@@ -26031,7 +29202,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "own-tempo",
+      "ice-body",
+      "sturdy"
+    ]
   },
   {
     "id": 713,
@@ -26069,7 +29245,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "own-tempo",
+      "ice-body",
+      "sturdy"
+    ]
   },
   {
     "id": 714,
@@ -26108,7 +29289,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "frisk",
+      "infiltrator",
+      "telepathy"
+    ]
   },
   {
     "id": 715,
@@ -26147,7 +29333,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "frisk",
+      "infiltrator",
+      "telepathy"
+    ]
   },
   {
     "id": 716,
@@ -26177,7 +29368,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "fairy-aura"
+    ]
   },
   {
     "id": 717,
@@ -26208,7 +29402,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "dark-aura"
+    ]
   },
   {
     "id": 718,
@@ -26239,7 +29436,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "aura-break"
+    ]
   },
   {
     "id": 719,
@@ -26270,7 +29470,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "clear-body"
+    ]
   },
   {
     "id": 720,
@@ -26301,7 +29504,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "magician"
+    ]
   },
   {
     "id": 721,
@@ -26332,7 +29538,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "water-absorb"
+    ]
   },
   {
     "id": 722,
@@ -26367,7 +29576,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "overgrow",
+      "long-reach"
+    ]
   },
   {
     "id": 723,
@@ -26402,7 +29615,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "overgrow",
+      "long-reach"
+    ]
   },
   {
     "id": 724,
@@ -26437,7 +29654,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "overgrow",
+      "long-reach"
+    ]
   },
   {
     "id": 725,
@@ -26471,7 +29692,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "blaze",
+      "intimidate"
+    ]
   },
   {
     "id": 726,
@@ -26505,7 +29730,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "blaze",
+      "intimidate"
+    ]
   },
   {
     "id": 727,
@@ -26540,7 +29769,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "blaze",
+      "intimidate"
+    ]
   },
   {
     "id": 728,
@@ -26575,7 +29808,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "torrent",
+      "liquid-voice"
+    ]
   },
   {
     "id": 729,
@@ -26610,7 +29847,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "torrent",
+      "liquid-voice"
+    ]
   },
   {
     "id": 730,
@@ -26646,7 +29887,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "torrent",
+      "liquid-voice"
+    ]
   },
   {
     "id": 731,
@@ -26685,7 +29930,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "keen-eye",
+      "skill-link",
+      "pickup"
+    ]
   },
   {
     "id": 732,
@@ -26724,7 +29974,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "keen-eye",
+      "skill-link",
+      "pickup"
+    ]
   },
   {
     "id": 733,
@@ -26763,7 +30018,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "keen-eye",
+      "skill-link",
+      "sheer-force"
+    ]
   },
   {
     "id": 734,
@@ -26801,7 +30061,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "stakeout",
+      "strong-jaw",
+      "adaptability"
+    ]
   },
   {
     "id": 735,
@@ -26839,7 +30104,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "stakeout",
+      "strong-jaw",
+      "adaptability"
+    ]
   },
   {
     "id": 736,
@@ -26869,7 +30139,10 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "swarm"
+    ]
   },
   {
     "id": 737,
@@ -26900,7 +30173,10 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "battery"
+    ]
   },
   {
     "id": 738,
@@ -26931,7 +30207,10 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "levitate"
+    ]
   },
   {
     "id": 739,
@@ -26969,7 +30248,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "hyper-cutter",
+      "iron-fist",
+      "anger-point"
+    ]
   },
   {
     "id": 740,
@@ -27008,7 +30292,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "hyper-cutter",
+      "iron-fist",
+      "anger-point"
+    ]
   },
   {
     "id": 741,
@@ -27039,7 +30328,10 @@
         ]
       ],
       "gender": "25:75"
-    }
+    },
+    "abilities": [
+      "dancer"
+    ]
   },
   {
     "id": 742,
@@ -27079,7 +30371,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "honey-gather",
+      "shield-dust",
+      "sweet-veil"
+    ]
   },
   {
     "id": 743,
@@ -27119,7 +30416,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "honey-gather",
+      "shield-dust",
+      "sweet-veil"
+    ]
   },
   {
     "id": 744,
@@ -27157,7 +30459,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "keen-eye",
+      "vital-spirit",
+      "steadfast"
+    ]
   },
   {
     "id": 745,
@@ -27195,7 +30502,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "keen-eye",
+      "sand-rush",
+      "steadfast"
+    ]
   },
   {
     "id": 746,
@@ -27225,7 +30537,10 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "schooling"
+    ]
   },
   {
     "id": 747,
@@ -27264,7 +30579,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "merciless",
+      "limber",
+      "regenerator"
+    ]
   },
   {
     "id": 748,
@@ -27303,7 +30623,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "merciless",
+      "limber",
+      "regenerator"
+    ]
   },
   {
     "id": 749,
@@ -27341,7 +30666,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "own-tempo",
+      "stamina",
+      "inner-focus"
+    ]
   },
   {
     "id": 750,
@@ -27379,7 +30709,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "own-tempo",
+      "stamina",
+      "inner-focus"
+    ]
   },
   {
     "id": 751,
@@ -27415,7 +30750,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "water-bubble",
+      "water-absorb"
+    ]
   },
   {
     "id": 752,
@@ -27451,7 +30790,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "water-bubble",
+      "water-absorb"
+    ]
   },
   {
     "id": 753,
@@ -27485,7 +30828,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "leaf-guard",
+      "contrary"
+    ]
   },
   {
     "id": 754,
@@ -27519,7 +30866,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "leaf-guard",
+      "contrary"
+    ]
   },
   {
     "id": 755,
@@ -27558,7 +30909,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "illuminate",
+      "effect-spore",
+      "rain-dish"
+    ]
   },
   {
     "id": 756,
@@ -27597,7 +30953,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "illuminate",
+      "effect-spore",
+      "rain-dish"
+    ]
   },
   {
     "id": 757,
@@ -27633,7 +30994,11 @@
         ]
       ],
       "gender": "87.5:12.5"
-    }
+    },
+    "abilities": [
+      "corrosion",
+      "oblivious"
+    ]
   },
   {
     "id": 758,
@@ -27669,7 +31034,11 @@
         ]
       ],
       "gender": "0:100"
-    }
+    },
+    "abilities": [
+      "corrosion",
+      "oblivious"
+    ]
   },
   {
     "id": 759,
@@ -27708,7 +31077,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "fluffy",
+      "klutz",
+      "cute-charm"
+    ]
   },
   {
     "id": 760,
@@ -27747,7 +31121,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "fluffy",
+      "klutz",
+      "unnerve"
+    ]
   },
   {
     "id": 761,
@@ -27785,7 +31164,12 @@
         ]
       ],
       "gender": "0:100"
-    }
+    },
+    "abilities": [
+      "leaf-guard",
+      "oblivious",
+      "sweet-veil"
+    ]
   },
   {
     "id": 762,
@@ -27823,7 +31207,12 @@
         ]
       ],
       "gender": "0:100"
-    }
+    },
+    "abilities": [
+      "leaf-guard",
+      "oblivious",
+      "sweet-veil"
+    ]
   },
   {
     "id": 763,
@@ -27861,7 +31250,12 @@
         ]
       ],
       "gender": "0:100"
-    }
+    },
+    "abilities": [
+      "leaf-guard",
+      "queenly-majesty",
+      "sweet-veil"
+    ]
   },
   {
     "id": 764,
@@ -27899,7 +31293,12 @@
         ]
       ],
       "gender": "25:75"
-    }
+    },
+    "abilities": [
+      "flower-veil",
+      "triage",
+      "natural-cure"
+    ]
   },
   {
     "id": 765,
@@ -27938,7 +31337,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "inner-focus",
+      "telepathy",
+      "symbiosis"
+    ]
   },
   {
     "id": 766,
@@ -27972,7 +31376,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "receiver",
+      "defiant"
+    ]
   },
   {
     "id": 767,
@@ -28004,7 +31412,10 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "wimp-out"
+    ]
   },
   {
     "id": 768,
@@ -28036,7 +31447,10 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "emergency-exit"
+    ]
   },
   {
     "id": 769,
@@ -28071,7 +31485,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "water-compaction",
+      "sand-veil"
+    ]
   },
   {
     "id": 770,
@@ -28106,7 +31524,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "water-compaction",
+      "sand-veil"
+    ]
   },
   {
     "id": 771,
@@ -28140,7 +31562,11 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "innards-out",
+      "unaware"
+    ]
   },
   {
     "id": 772,
@@ -28170,7 +31596,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "battle-armor"
+    ]
   },
   {
     "id": 773,
@@ -28200,7 +31629,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "rks-system"
+    ]
   },
   {
     "id": 774,
@@ -28231,7 +31663,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "shields-down"
+    ]
   },
   {
     "id": 775,
@@ -28261,7 +31696,10 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "comatose"
+    ]
   },
   {
     "id": 776,
@@ -28293,7 +31731,10 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "shell-armor"
+    ]
   },
   {
     "id": 777,
@@ -28333,7 +31774,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "iron-barbs",
+      "lightning-rod",
+      "sturdy"
+    ]
   },
   {
     "id": 778,
@@ -28364,7 +31810,10 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "disguise"
+    ]
   },
   {
     "id": 779,
@@ -28403,7 +31852,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "dazzling",
+      "strong-jaw",
+      "wonder-skin"
+    ]
   },
   {
     "id": 780,
@@ -28443,7 +31897,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "berserk",
+      "sap-sipper",
+      "cloud-nine"
+    ]
   },
   {
     "id": 781,
@@ -28474,7 +31933,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "steelworker"
+    ]
   },
   {
     "id": 782,
@@ -28512,7 +31974,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "bulletproof",
+      "soundproof",
+      "overcoat"
+    ]
   },
   {
     "id": 783,
@@ -28551,7 +32018,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "bulletproof",
+      "soundproof",
+      "overcoat"
+    ]
   },
   {
     "id": 784,
@@ -28590,7 +32062,12 @@
         ]
       ],
       "gender": "50:50"
-    }
+    },
+    "abilities": [
+      "bulletproof",
+      "soundproof",
+      "overcoat"
+    ]
   },
   {
     "id": 785,
@@ -28625,7 +32102,11 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "electric-surge",
+      "telepathy"
+    ]
   },
   {
     "id": 786,
@@ -28660,7 +32141,11 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "psychic-surge",
+      "telepathy"
+    ]
   },
   {
     "id": 787,
@@ -28695,7 +32180,11 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "grassy-surge",
+      "telepathy"
+    ]
   },
   {
     "id": 788,
@@ -28730,7 +32219,11 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "misty-surge",
+      "telepathy"
+    ]
   },
   {
     "id": 789,
@@ -28760,7 +32253,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "unaware"
+    ]
   },
   {
     "id": 790,
@@ -28790,7 +32286,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "sturdy"
+    ]
   },
   {
     "id": 791,
@@ -28821,7 +32320,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "full-metal-body"
+    ]
   },
   {
     "id": 792,
@@ -28852,7 +32354,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "shadow-shield"
+    ]
   },
   {
     "id": 793,
@@ -28883,7 +32388,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "beast-boost"
+    ]
   },
   {
     "id": 794,
@@ -28914,7 +32422,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "beast-boost"
+    ]
   },
   {
     "id": 795,
@@ -28945,7 +32456,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "beast-boost"
+    ]
   },
   {
     "id": 796,
@@ -28975,7 +32489,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "beast-boost"
+    ]
   },
   {
     "id": 797,
@@ -29006,7 +32523,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "beast-boost"
+    ]
   },
   {
     "id": 798,
@@ -29037,7 +32557,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "beast-boost"
+    ]
   },
   {
     "id": 799,
@@ -29068,7 +32591,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "beast-boost"
+    ]
   },
   {
     "id": 800,
@@ -29098,7 +32624,10 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "prism-armor"
+    ]
   },
   {
     "id": 801,
@@ -29129,6 +32658,9 @@
         ]
       ],
       "gender": "Genderless"
-    }
+    },
+    "abilities": [
+      "soul-heart"
+    ]
   }
 ]

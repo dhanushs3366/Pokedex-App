@@ -8,9 +8,10 @@ module.exports = {
         "200px":"200px",
         "poke-guess":"200px",
         "poke-guess-header":"300px",
-        "poke-viewer":"250px",
+        "poke-viewer":"300px",
         "poke-viewer-offset":"50px",//poke-viewer-poke-guess-10
-        "poke-guess-frame":"250px"
+        "poke-guess-frame":"300px",
+        "pokemon-img":"150px"
       },
       scale: {
         104: "1.04",

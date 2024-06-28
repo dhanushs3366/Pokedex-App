@@ -49,6 +49,7 @@ export namespace backend {
 	    types: string[];
 	    base: Base;
 	    profile: PokemonProfile;
+	    abilities: string[];
 	
 	    static createFrom(source: any = {}) {
 	        return new PokemonDescription(source);
@@ -62,6 +63,7 @@ export namespace backend {
 	        this.types = source["types"];
 	        this.base = this.convertValues(source["base"], Base);
 	        this.profile = this.convertValues(source["profile"], PokemonProfile);
+	        this.abilities = source["abilities"];
 	    }
 	
 		convertValues(a: any, classs: any, asMap: boolean = false): any {
