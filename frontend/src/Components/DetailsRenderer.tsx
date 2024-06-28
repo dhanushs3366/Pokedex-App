@@ -15,9 +15,9 @@ function DetailsRenderer() {
   const [pokemonDetail, setPokemonDetail] =
     useState<backend.PokemonDescription | null>(null);
 
-  const primaryType = PokemonTypes.BUG;
+  const primaryType = PokemonTypes.GRASS;
   const primaryColour = getPrimaryColour(primaryType);
-  const pokemonID = 47; //placeholder
+  const pokemonID = 1; //placeholder
   const IMAGE_SRC_PLACE_HOLDER = `frontend/src/assets/images/pokemon_images/${pokemonID}.png`;
 
   useEffect(() => {
@@ -27,7 +27,7 @@ function DetailsRenderer() {
         siblingPokemonViewerDiv.current.getBoundingClientRect().height;
       const width =
         siblingPokemonViewerDiv.current.getBoundingClientRect().width;
-      setParentHeight(height1 + height2 - 10 + 0.04 * width);
+      setParentHeight(height1 + height2 - 10 + 0.06 * width);
     }
   }, []);
 
@@ -77,7 +77,7 @@ function DetailsRenderer() {
         style={{ backgroundColor: primaryColour }}
       >
         <div
-          className="relative w-[95%] h-auto pb-5   bg-white  mx-auto rounded-lg shadow-inner"
+          className="relative w-[95%] h-auto pb-2 mb-1  bg-white  mx-auto rounded-lg shadow-inner"
           ref={siblingPokemonViewerDiv}
         >
           {/* poke-guess=poke-viewer */}
@@ -151,7 +151,7 @@ function DetailsRenderer() {
 
           {/* Moves place */}
 
-          <div className="flex justify-center gap-3 place-items-baseline">
+          <div className="flex justify-center gap-2 place-items-baseline ">
             {pokemonDetail &&
               (() => {
                 const moves = pokemonDetail.abilities;
@@ -177,11 +177,16 @@ function DetailsRenderer() {
               })()}
           </div>
           <div className="move-title flex justify-center">
-            <span className="mx-auto text-gray-500 font-bold text-lg">
+            <span className="mx-auto text-gray-500 font-bold text-normal">
               Moves
             </span>
           </div>
-          <div className="description w-full px-2">
+
+          {/* Description */}
+          <div className="description w-full px-3 mb-1 ">
+            <div className="description-title text-normal text-gray-500 font-bold mb-1">
+              Description
+            </div>
             <span
               className="text-gray-400 font-bold leading-tight"
               style={{
@@ -192,6 +197,63 @@ function DetailsRenderer() {
             >
               {pokemonDetail?.description}
             </span>
+          </div>
+
+          {/* Gender ratio */}
+          <div className=" w-full h-auto px-3">
+            {pokemonDetail &&
+              (() => {
+                const genderStr = pokemonDetail.profile.gender;
+                const genderRatio = genderStr
+                  .split(":")
+                  .map((ratio) => parseFloat(ratio));
+                if (genderStr === "Genderless") {
+                  return null;
+                }
+                return (
+                  <div className="w-full h-auto rounded-full">
+                    <div
+                      className=" bg-blue-700 h-2 inline-block rounded-l-full"
+                      style={{ width: `${genderRatio[0]}%` }}
+                    ></div>
+                    <div
+                      className="bg-pink-500 h-2 inline-block rounded-r-full"
+                      style={{ width: `${100 - genderRatio[0]}%` }}
+                    ></div>
+
+                    <div className=" flex w-full justify-between   left-0 right-0 px-1">
+                      <div className="male h-auto w-auto">
+                        <img
+                          src="src/assets/images/svgs/male.svg"
+                          className="inline  h-auto thick-svg"
+                          alt="Male"
+                          style={{width:"11px",height:"auto"}}
+                        />
+                        <span
+                          className="inline px-1 text-gray-900 leading-tight"
+                          style={{ fontSize: "12px" }}
+                        >
+                          {genderRatio[0]}%
+                        </span>
+                      </div>
+                      <div className="female h-auto w-auto">
+                        <img
+                          src="src/assets/images/svgs/female.svg"
+                          className="w-3 h-3 inline"
+                          alt="Female"
+                          style={{width:"11px",height:"auto"}}
+                        />
+                        <span
+                          className="inline px-1 text-gray-900 leading-tight"
+                          style={{ fontSize: "12px" }}
+                        >
+                          {genderRatio[1]}%
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                );
+              })()}
           </div>
         </div>
       </div>
