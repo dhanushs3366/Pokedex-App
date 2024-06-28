@@ -39,7 +39,7 @@ const PokemonViewer: React.FC<PokemonViewerProps> = ({
     <div className="img-header absolute w-full h-full flex justify-center items-center   rounded-xl" >
       <div className="img-type-bg absolute   w-full h-full flex justify-center items-center overflow-hidden "  style={setPrimaryColour(primaryColour)}>
         <div
-          className="img-type-holder pokemon-type-logo-shader absolute size-[50%] top-[15%] rounded-full z-20 "
+          className="img-type-holder pokemon-type-logo-shader absolute size-[50%] top-[16%] rounded-full z-20 "
           style={applyOpacity(primaryColour)}
         ></div>
         {/* if the above div position changed change the image position too so it stacks on top of each other z-ind(div)> z-ind(img)*/}
@@ -49,10 +49,10 @@ const PokemonViewer: React.FC<PokemonViewerProps> = ({
           alt=""
         />
       </div>
-      <div className="img absolute w-full h-full z-30 flex justify-center bottom-[17%] items-end pb-3 pl-3">
+      <div className="img absolute w-full h-full z-30 flex justify-center  items-end pb-3 pl-3">
         <img
           src={imgSrc}
-          className="absolute   w-auto h-[40%]"
+          className="absolute   w-[40%] h-auto"
           alt=""
         />
         {/* if u change anything here change PokeGuess.tsx under the this component usage, using unmasked image as a cover there both need to have same position to overlap correctly */}

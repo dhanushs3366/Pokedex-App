@@ -131,21 +131,22 @@ function setPrimaryColour(primaryColour:PrimaryColour){
             canRender={true}
             imgSrc={maskedSrc}
             primaryPokemonType={primaryType}
+            
           />
         )}
         {imgSrc && (
           <div className="img absolute w-full h-full z-30 flex justify-center  items-end pb-3 pl-3">
             <img
               src={imgSrc}
-              className="absolute   w-auto h-[60%]"
+              className="absolute   w-auto h-[40%] top-[39%]"
               alt=""
             />
-            {/* not using pokemonviewer component cuz the fading header will overlap with causing less fading so i just copy pasted the image to overcome that */}
+            {/* not using pokemonviewer component cuz the fading header will overlap which causes less fading so i just copy pasted the image to overcome that */}
           </div>
         )}
         {/* </div> */}
       </div>
-      <div className="relative w-[98%] pt-[50px] bottom-[60px] -mb-[50px]  bg-white rounded-xl">
+      <div className="relative w-[98%] pt-[50px] bottom-[100px] -mb-[90px]  bg-white rounded-xl">
       <div className="relative mt-3 w-full bg-white">
         {options.map((option, index) => (
           <div

@@ -15,9 +15,9 @@ function DetailsRenderer() {
   const [pokemonDetail, setPokemonDetail] =
     useState<backend.PokemonDescription | null>(null);
 
-  const primaryType = PokemonTypes.GRASS;
+  const primaryType = PokemonTypes.FIRE;
   const primaryColour = getPrimaryColour(primaryType);
-  const pokemonID = 1; //placeholder
+  const pokemonID = 37; //placeholder
   const IMAGE_SRC_PLACE_HOLDER = `frontend/src/assets/images/pokemon_images/${pokemonID}.png`;
 
   useEffect(() => {
@@ -56,7 +56,7 @@ function DetailsRenderer() {
       ref={parentPokemonViewerDiv}
     >
       <div
-        className="absolute  w-poke-viewer h-poke-viewer rounded-xl overflow-hidden "
+        className="absolute  w-poke-viewer h-[250px] rounded-xl overflow-hidden "
         ref={pokemonViewerDiv}
       >
         <PokemonViewer
@@ -99,55 +99,6 @@ function DetailsRenderer() {
                 );
               })}
           </div>
-          {/* <div className="poke-detail-about flex justify-center ">
-            <span
-              className="text-xl font-bold "
-              style={{
-                color: primaryColour,
-              }}
-            >
-              About
-            </span>
-          </div> */}
-
-          {/* Profile place */}
-          {/* <div className="flex justify-center gap-4 mx-3 items-center">
-            {(() => {
-              const about = [
-                pokemonDetail?.profile.weight,
-                pokemonDetail?.profile.height,
-              ];
-              const svgPaths = [
-                "src/assets/images/svgs/weight.svg",
-                "src/assets/images/svgs/ruler.svg",
-              ];
-              const props = ["Weight", "Height"];
-
-              return about.map((ele, index) => {
-
-                let colour;
-                if (pokemonDetail?.types && pokemonDetail.types.length>1){
-                  colour=getPrimaryColour((pokemonDetail.types[1].toUpperCase()) as PokemonTypes)
-                }else{
-                  colour=primaryColour
-                }
-                return (
-                  <React.Fragment key={index}>
-                    <div className="flex flex-col items-center py-2">
-                      <div className="flex justify-center items-center rounded-full " style={{backgroundColor:colour }}>
-                        
-                        <span className="px-3 mx-1  mb-3 rounded-full text-lg font-sans text-white">
-                          {ele}
-                        </span>
-                      </div>
-                      
-                    </div>
-                    
-                  </React.Fragment>
-                );
-              });
-            })()}
-          </div> */}
 
           {/* Moves place */}
 
@@ -227,7 +178,7 @@ function DetailsRenderer() {
                           src="src/assets/images/svgs/male.svg"
                           className="inline  h-auto thick-svg"
                           alt="Male"
-                          style={{width:"11px",height:"auto"}}
+                          style={{ width: "11px", height: "auto" }}
                         />
                         <span
                           className="inline px-1 text-gray-900 leading-tight"
@@ -241,7 +192,7 @@ function DetailsRenderer() {
                           src="src/assets/images/svgs/female.svg"
                           className="w-3 h-3 inline"
                           alt="Female"
-                          style={{width:"11px",height:"auto"}}
+                          style={{ width: "11px", height: "auto" }}
                         />
                         <span
                           className="inline px-1 text-gray-900 leading-tight"
@@ -255,6 +206,35 @@ function DetailsRenderer() {
                 );
               })()}
           </div>
+
+          {/* Attack stats */}
+          <div className="w-full flex flex-wrap justify-center gap-2">
+            {pokemonDetail &&
+              (() => {
+                const attackNames = Object.keys(pokemonDetail.base);
+                const attacks = Object.values(pokemonDetail.base);
+
+                return attackNames.map((name, index) => {
+                  return (
+                    <React.Fragment key={index}>
+                      <div className="w-1/4 flex flex-col  justify-center relative items-baseline">
+                        <span className="text-gray-400 text-sm">
+                          {attacks[index]}
+                        </span>
+                        <span className="text-black font-normal text-xs">
+                          {name}
+                        </span>
+
+                        {/* Add vertical line for all but the last element in each row */}
+                        {index % 3 !== 2 && index < attacks.length - 1 && (
+                          <div className="absolute right-0 top-0 h-full w-px bg-gray-400"></div>
+                        )}
+                      </div>
+                    </React.Fragment>
+                  );
+                });
+              })()}
+          </div>
         </div>
       </div>
     </div>
@@ -262,18 +242,3 @@ function DetailsRenderer() {
 }
 
 export default DetailsRenderer;
-
-/*
-<div className="flex justify-center border-black border-2">
-    {
-        pokemonDetail && pokemonDetail.types.map((type, index) => {
-            const bgColour = getPrimaryColour(type.toUpperCase() as PokemonTypes); // Assuming getPrimaryColour returns a valid CSS color value
-
-            return (
-                
-            );
-        })
-    }
-</div>
-
-*/
