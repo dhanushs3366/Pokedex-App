@@ -4,7 +4,7 @@ function PokeDetails(){
     return(
         <div className="poke-details w-auto h-auto mx-auto">
             <div className="w-poke-viewer h-auto">
-                <DetailsRenderer/>
+                <DetailsRenderer pokemonID={39}/>
             </div>
         </div>
     )

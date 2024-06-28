@@ -1,4 +1,4 @@
-import { GetPokemonDetails } from "../../wailsjs/go/main/App";
+import { GetPokemonDetails, GetPokemonTypes } from "../../wailsjs/go/main/App";
 import { backend } from "../../wailsjs/go/models";
 import PokemonTypes from "../enums/PokemonTypes";
 import PrimaryColour from "../enums/PrimaryColour";
@@ -7,19 +7,36 @@ import PokemonViewer from "./PokemonViewer";
 import React from "react";
 import { useRef, useState, useEffect } from "react";
 
-function DetailsRenderer() {
+interface DetailsProps {
+  pokemonID: number;
+}
+
+const DetailsRenderer: React.FC<DetailsProps> = function ({ pokemonID }) {
   const parentPokemonViewerDiv = useRef<HTMLDivElement>(null);
   const pokemonViewerDiv = useRef<HTMLDivElement>(null);
   const siblingPokemonViewerDiv = useRef<HTMLDivElement>(null);
   const [parentHeight, setParentHeight] = useState<number>(0);
   const [pokemonDetail, setPokemonDetail] =
     useState<backend.PokemonDescription | null>(null);
+  const [primaryColour, setPrimaryColour] = useState<PrimaryColour>(
+    PrimaryColour.NORMAL
+  );
+  const [primaryType, setPrimaryType] = useState<PokemonTypes>(
+    PokemonTypes.NORMAL
+  );
 
-  const primaryType = PokemonTypes.FIRE;
-  const primaryColour = getPrimaryColour(primaryType);
-  const pokemonID = 37; //placeholder
   const IMAGE_SRC_PLACE_HOLDER = `frontend/src/assets/images/pokemon_images/${pokemonID}.png`;
 
+
+  useEffect(()=>{
+    const fetchData=async()=>{
+      const types=await GetPokemonTypes(pokemonID)
+      const type=types[0].toUpperCase() as PokemonTypes
+      setPrimaryType(type)
+      setPrimaryColour(getPrimaryColour(type))
+    }
+    fetchData()
+  },[pokemonID])
   useEffect(() => {
     if (pokemonViewerDiv.current && siblingPokemonViewerDiv.current) {
       const height1 = pokemonViewerDiv.current.getBoundingClientRect().height;
@@ -44,10 +61,11 @@ function DetailsRenderer() {
       if (details.id > 0) {
         // if 0 it is an empty struct
         setPokemonDetail(details);
+        
       }
     };
     fetchDetails();
-  }, []);
+  }, [pokemonID]);
 
   return (
     <div
@@ -239,6 +257,6 @@ function DetailsRenderer() {
       </div>
     </div>
   );
-}
+};
 
 export default DetailsRenderer;
