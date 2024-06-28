@@ -6,6 +6,10 @@ export function GetOptions(arg1) {
   return window['go']['main']['App']['GetOptions'](arg1);
 }
 
+export function GetPokemonDetails(arg1) {
+  return window['go']['main']['App']['GetPokemonDetails'](arg1);
+}
+
 export function GetPokemonId(arg1) {
   return window['go']['main']['App']['GetPokemonId'](arg1);
 }

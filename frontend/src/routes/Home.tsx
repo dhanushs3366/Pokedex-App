@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import '../css/global.css'; // Make sure to import your global CSS for additional custom styles if needed
 
 const links = [
-  { to: "/", bgColor: "bg-red-500", title: "Random Pokemon", description: "Details about random Pokemon" },
+  { to: "/details", bgColor: "bg-red-500", title: "Random Pokemon", description: "Details about random Pokemon" },
   { to: "/upload", bgColor: "bg-blue-500", title: "Upload Pokemon Image", description: "Upload your Pokemon images here" },
   { to: "/scan", bgColor: "bg-green-500", title: "Scan Pokemon", description: "Scan your Pokemon collection" },
   { to: "/guess", bgColor: "bg-yellow-500", title: "Guess the Pokemon", description: "Try to guess the Pokemon" },

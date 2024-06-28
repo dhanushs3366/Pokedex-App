@@ -123,8 +123,8 @@ function setPrimaryColour(primaryColour:PrimaryColour){
   };
 
   return (
-    <div className="relative mx-auto w-poke-viewer-holder h-auto px-2 rounded-2xl quiz flex flex-col items-center " style={setPrimaryColour(getPrimaryColour(primaryType))}>
-      <div className="relative w-poke-guess-frame h-poke-guess-frame  quiz-picture-frame rounded-2xl overflow-hidden">
+    <div className="relative mx-auto w-poke-viewer h-auto px-2 rounded-2xl quiz flex flex-col items-center overflow-hidden" style={setPrimaryColour(getPrimaryColour(primaryType))}>
+      <div className="relative w-poke-guess-frame h-poke-guess-frame  quiz-picture-frame rounded-2xl ">
         {/* <div className="relative w-poke-guess-frame h-poke-guess-frame border-black border-2"> */}
         {maskedSrc && (
           <PokemonViewer
@@ -145,7 +145,7 @@ function setPrimaryColour(primaryColour:PrimaryColour){
         )}
         {/* </div> */}
       </div>
-      <div className="relative w-[95%] pt-[50px] bottom-[60px] -mb-[50px]  bg-white rounded-xl">
+      <div className="relative w-[98%] pt-[50px] bottom-[60px] -mb-[50px]  bg-white rounded-xl">
       <div className="relative mt-3 w-full bg-white">
         {options.map((option, index) => (
           <div

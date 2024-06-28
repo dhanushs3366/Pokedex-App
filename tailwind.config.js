@@ -9,7 +9,7 @@ module.exports = {
         "poke-guess":"200px",
         "poke-guess-header":"300px",
         "poke-viewer":"250px",
-        "poke-viewer-holder":"254px",
+        "poke-viewer-offset":"50px",//poke-viewer-poke-guess-10
         "poke-guess-frame":"250px"
       },
       scale: {

@@ -11,10 +11,29 @@ import (
 )
 
 type PokemonDescription struct {
-	ID          int      `json:"id"`
-	Name        string   `json:"name"`
-	Description string   `json:"description"`
-	Types       []string `json:"types"`
+	ID          int            `json:"id"`
+	Name        string         `json:"name"`
+	Description string         `json:"description"`
+	Types       []string       `json:"types"`
+	Base        Base           `json:"base"`
+	Profile     PokemonProfile `json:"profile"`
+}
+
+type Base struct {
+	HP        int `json:"HP"`
+	Attack    int `json:"Attack"`
+	Defense   int `json:"Defense"`
+	SpAttack  int `json:"Sp. Attack"`
+	SpDefense int `json:"Sp. Defense"`
+	Speed     int `json:"Speed"`
+}
+
+type PokemonProfile struct {
+	Height      string     `json:"height"`
+	Weight      string     `json:"weight"`
+	Egg         []string   `json:"egg"`
+	Abilities   [][]string `json:"ability"`
+	GenderRatio string     `json:"gender"`
 }
 
 const JSON_PATH = "frontend/src/assets/pokemons/pokemon.json"
@@ -134,4 +153,17 @@ func GetPokemonTypes(pokemonID int) ([]string, error) {
 		}
 	}
 	return nil, errors.New("pokemon is not found")
+}
+
+func GetPokemonDetails(pokemonID int) (PokemonDescription, error) {
+	pokemons, err := loadPokemons(JSON_PATH)
+	if err != nil {
+		return PokemonDescription{}, err
+	}
+	for _, pokemon := range pokemons {
+		if pokemon.ID == pokemonID {
+			return pokemon, nil
+		}
+	}
+	return PokemonDescription{}, errors.New("pokemon not found")
 }

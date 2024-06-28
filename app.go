@@ -139,6 +139,14 @@ func (a *App) GetPokemonTypes(pokemonID int) []string {
 	return types
 }
 
+func (a *App) GetPokemonDetails(pokemonID int) backend.PokemonDescription {
+	pokemon, err := backend.GetPokemonDetails(pokemonID)
+	if err != nil {
+		return backend.PokemonDescription{}
+	}
+	return pokemon
+}
+
 //on shutdown remove the pokemon.png
 
 // on startup check if venv is created and if not create it and source it using a bash script

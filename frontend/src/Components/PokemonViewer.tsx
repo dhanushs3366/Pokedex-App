@@ -36,15 +36,15 @@ const PokemonViewer: React.FC<PokemonViewerProps> = ({
   }
   const primaryColour=getPrimaryColour(primaryPokemonType)
   return (
-    <div className="img-header absolute w-full h-full flex justify-center items-center   overflow-hidden " >
-      <div className="img-type-bg absolute bottom-[30%]  w-[100%] h-[120%] flex justify-center items-center overflow-hidden" style={setPrimaryColour(primaryColour)}>
+    <div className="img-header absolute w-full h-full flex justify-center items-center   " >
+      <div className="img-type-bg absolute   w-full h-full flex justify-center items-center overflow-hidden "  style={setPrimaryColour(primaryColour)}>
         <div
-          className="img-type-holder absolute size-[50%] top-[45%] rounded-full z-20"
+          className="img-type-holder pokemon-type-logo-shader absolute size-[50%] top-[10%] rounded-full z-20"
           style={applyOpacity(primaryColour)}
         ></div>
         {/* if the above div position changed change the image position too so it stacks on top of each other z-ind(div)> z-ind(img)*/}
         <img
-          className="absolute w-[60%] h-auto poke-guess-img z-10 top-[45%]"
+          className="pokemon-type-logo absolute w-[60%] h-auto poke-guess-img z-10 top-[10%]  "
           src={`frontend/src/assets/images/pokemon-types/${primaryPokemonType}.png`}
           alt=""
         />
@@ -59,6 +59,8 @@ const PokemonViewer: React.FC<PokemonViewerProps> = ({
       </div>
     </div>
   );
+
+  
 };
 
 export default PokemonViewer;
