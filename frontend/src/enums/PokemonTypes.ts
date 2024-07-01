@@ -38,8 +38,8 @@ enum PokemonTypes {
     DRAGON="DRAGON",
     DARK="DARK",
     STEEL="STEEL",
-    FAIRY="FAIRY"
-
+    FAIRY="FAIRY",
+    DEFAULT="DEFAULT"
 }
 
 export default PokemonTypes

@@ -11,6 +11,7 @@ module.exports = {
         "poke-viewer":"300px",
         "poke-viewer-offset":"50px",//poke-viewer-poke-guess-10
         "poke-guess-frame":"300px",
+        "pokemon-details-card-h":"533px",
         "pokemon-img":"150px"
       },
       scale: {

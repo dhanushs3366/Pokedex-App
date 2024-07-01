@@ -9,9 +9,13 @@ import { useRef, useState, useEffect } from "react";
 
 interface DetailsProps {
   pokemonID: number;
+  parentEleHeight?: number;
 }
 
-const DetailsRenderer: React.FC<DetailsProps> = function ({ pokemonID }) {
+const DetailsRenderer: React.FC<DetailsProps> = function ({
+  pokemonID,
+  parentEleHeight,
+}) {
   const parentPokemonViewerDiv = useRef<HTMLDivElement>(null);
   const pokemonViewerDiv = useRef<HTMLDivElement>(null);
   const siblingPokemonViewerDiv = useRef<HTMLDivElement>(null);
@@ -19,24 +23,28 @@ const DetailsRenderer: React.FC<DetailsProps> = function ({ pokemonID }) {
   const [pokemonDetail, setPokemonDetail] =
     useState<backend.PokemonDescription | null>(null);
   const [primaryColour, setPrimaryColour] = useState<PrimaryColour>(
-    PrimaryColour.NORMAL
+    PrimaryColour.DEFAULT
   );
   const [primaryType, setPrimaryType] = useState<PokemonTypes>(
-    PokemonTypes.NORMAL
+    PokemonTypes.DEFAULT
   );
+  const [isMinimised, setIsinimised] = useState<boolean>(false);
+  const descriptionRef = useRef<HTMLDivElement>(null);
+  const genderRef = useRef<HTMLDivElement>(null);
 
+  const minParentHeight = 500; 
   const IMAGE_SRC_PLACE_HOLDER = `frontend/src/assets/images/pokemon_images/${pokemonID}.png`;
 
+  useEffect(() => {
+    const fetchData = async () => {
+      const types = await GetPokemonTypes(pokemonID);
+      const type = types[0].toUpperCase() as PokemonTypes;
+      setPrimaryType(type);
+      setPrimaryColour(getPrimaryColour(type));
+    };
+    fetchData();
+  }, [pokemonID]);
 
-  useEffect(()=>{
-    const fetchData=async()=>{
-      const types=await GetPokemonTypes(pokemonID)
-      const type=types[0].toUpperCase() as PokemonTypes
-      setPrimaryType(type)
-      setPrimaryColour(getPrimaryColour(type))
-    }
-    fetchData()
-  },[pokemonID])
   useEffect(() => {
     if (pokemonViewerDiv.current && siblingPokemonViewerDiv.current) {
       const height1 = pokemonViewerDiv.current.getBoundingClientRect().height;
@@ -45,8 +53,32 @@ const DetailsRenderer: React.FC<DetailsProps> = function ({ pokemonID }) {
       const width =
         siblingPokemonViewerDiv.current.getBoundingClientRect().width;
       setParentHeight(height1 + height2 - 10 + 0.06 * width);
+      console.log(`total height: ${height1 + height2} \t white" ${height2}`);
     }
+  }, []); //updatesetMinimised whenever carousel button is clicked
+
+  useEffect(() => {
+    if (parentEleHeight && parentEleHeight < minParentHeight) {
+      setIsinimised(true);
+    } else {
+      setIsinimised(false);
+    }
+    console.log(
+      `parentHeight: ${parentEleHeight} \t minHeight:${minParentHeight}  `
+    );
   }, []);
+  
+  
+  useEffect(()=>{
+    if(isMinimised ){
+      descriptionRef.current?.classList.add("text-ellipsis")
+      genderRef.current?.classList.add("invisible","absolute")
+    }else{
+      genderRef.current?.classList.remove("invisible","relative")
+      descriptionRef.current?.classList.remove("text-ellipsis")
+    }
+  },[isMinimised])
+  // try adding classes without useEffect and just checking for parentEleHeight it should work ig
 
   async function getPokemonDetails(
     pokemonID: number
@@ -61,7 +93,6 @@ const DetailsRenderer: React.FC<DetailsProps> = function ({ pokemonID }) {
       if (details.id > 0) {
         // if 0 it is an empty struct
         setPokemonDetail(details);
-        
       }
     };
     fetchDetails();
@@ -69,8 +100,11 @@ const DetailsRenderer: React.FC<DetailsProps> = function ({ pokemonID }) {
 
   return (
     <div
-      className="relative details-renderer w-poke-viewer h-poke-guess-frame rounded-xl"
-      style={{ backgroundColor: primaryColour }}
+      className="relative details-renderer w-poke-viewer  rounded-xl"
+      style={{
+        backgroundColor: primaryColour,
+        height: `${Math.ceil(parentHeight)}px`,
+      }}
       ref={parentPokemonViewerDiv}
     >
       <div
@@ -87,7 +121,9 @@ const DetailsRenderer: React.FC<DetailsProps> = function ({ pokemonID }) {
         <span className="font-8bit-bold text-lg font-bold text-white">
           {pokemonDetail?.name}
         </span>
-        <span className="font-8bit-bold text-lg font-normal text-white">{`#${pokemonDetail?.id}`}</span>
+        {pokemonDetail?.id && (
+          <span className="font-8bit-bold text-lg font-normal text-white">{`#${pokemonDetail?.id}`}</span>
+        )}
       </div>
 
       <div
@@ -95,12 +131,12 @@ const DetailsRenderer: React.FC<DetailsProps> = function ({ pokemonID }) {
         style={{ backgroundColor: primaryColour }}
       >
         <div
-          className="relative w-[95%] h-auto pb-2 mb-1  bg-white  mx-auto rounded-lg shadow-inner"
+          className="relative w-[95%] h-auto  pb-2 mb-1  bg-white  mx-auto rounded-lg shadow-inner"
           ref={siblingPokemonViewerDiv}
         >
           {/* poke-guess=poke-viewer */}
           {/* this place is for type details of a pokemon */}
-          <div className="relative flex justify-center pt-9 h-auto ">
+          <div className="relative flex justify-center pt-9 h-auto">
             {pokemonDetail != null &&
               pokemonDetail.types.map((type, index) => {
                 const bgColour = getPrimaryColour(
@@ -153,7 +189,7 @@ const DetailsRenderer: React.FC<DetailsProps> = function ({ pokemonID }) {
 
           {/* Description */}
           <div className="description w-full px-3 mb-1 ">
-            <div className="description-title text-normal text-gray-500 font-bold mb-1">
+            <div className="description-title text-normal text-gray-500 font-bold ">
               Description
             </div>
             <span
@@ -161,15 +197,15 @@ const DetailsRenderer: React.FC<DetailsProps> = function ({ pokemonID }) {
               style={{
                 fontSize: "10px",
                 display: "block",
-                whiteSpace: "wrap",
               }}
+              ref={descriptionRef}
             >
               {pokemonDetail?.description}
             </span>
           </div>
 
           {/* Gender ratio */}
-          <div className=" w-full h-auto px-3">
+          <div className=" w-full h-auto px-3" >
             {pokemonDetail &&
               (() => {
                 const genderStr = pokemonDetail.profile.gender;
@@ -190,8 +226,11 @@ const DetailsRenderer: React.FC<DetailsProps> = function ({ pokemonID }) {
                       style={{ width: `${100 - genderRatio[0]}%` }}
                     ></div>
 
-                    <div className=" flex w-full justify-between   left-0 right-0 px-1">
-                      <div className="male h-auto w-auto">
+                    <div className=" flex w-full justify-between   left-0 right-0 px-1" ref={genderRef} style={{
+                      visibility:isMinimised ?"hidden":"visible",
+                      position: isMinimised ? "absolute":"relative"
+                    }}>
+                      <div className="male h-auto w-auto" >
                         <img
                           src="src/assets/images/svgs/male.svg"
                           className="inline  h-auto thick-svg"
@@ -200,12 +239,12 @@ const DetailsRenderer: React.FC<DetailsProps> = function ({ pokemonID }) {
                         />
                         <span
                           className="inline px-1 text-gray-900 leading-tight"
-                          style={{ fontSize: "12px" }}
+                          style={{ fontSize: "12px" }} 
                         >
                           {genderRatio[0]}%
                         </span>
                       </div>
-                      <div className="female h-auto w-auto">
+                      <div className="female h-auto w-auto" >
                         <img
                           src="src/assets/images/svgs/female.svg"
                           className="w-3 h-3 inline"

@@ -50,5 +50,7 @@ export function getPrimaryColour(pokemonType: PokemonTypes): PrimaryColour {
       return PrimaryColour.STEEL;
     case PokemonTypes.WATER:
       return PrimaryColour.WATER;
+    case PokemonTypes.DEFAULT:
+      return PrimaryColour.DEFAULT;
   }
 }

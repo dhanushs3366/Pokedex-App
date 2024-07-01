@@ -18,7 +18,8 @@ enum PrimaryColour{
     ELECTRIC="#f3d23b",
     DRAGON="#096dc4",
     DARK="#5a5366",
-    ROCK="#c7b78b"
+    ROCK="#c7b78b",
+    DEFAULT=""
 }
 
 export default PrimaryColour
