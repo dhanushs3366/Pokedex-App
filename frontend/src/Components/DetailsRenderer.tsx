@@ -1,3 +1,4 @@
+import { useParams } from "react-router-dom";
 import { GetPokemonDetails, GetPokemonTypes } from "../../wailsjs/go/main/App";
 import { backend } from "../../wailsjs/go/models";
 import PokemonTypes from "../enums/PokemonTypes";
@@ -8,17 +9,20 @@ import React from "react";
 import { useRef, useState, useEffect } from "react";
 
 interface DetailsProps {
-  pokemonID: number;
+  ID?: number;
   parentEleHeight?: number;
 }
 
 const DetailsRenderer: React.FC<DetailsProps> = function ({
-  pokemonID,
+  ID,
   parentEleHeight,
 }) {
-  const parentPokemonViewerDiv = useRef<HTMLDivElement>(null);
-  const pokemonViewerDiv = useRef<HTMLDivElement>(null);
-  const siblingPokemonViewerDiv = useRef<HTMLDivElement>(null);
+  const params = useParams<{ id: string }>();
+
+  // Convert the URL parameter to a number if present
+  const id = ID ?? parseInt(params.id || '', 10);
+
+  const [pokemonID,setPokemonID]=useState<number>(id)
   const [parentHeight, setParentHeight] = useState<number>(0);
   const [pokemonDetail, setPokemonDetail] =
     useState<backend.PokemonDescription | null>(null);
@@ -29,6 +33,11 @@ const DetailsRenderer: React.FC<DetailsProps> = function ({
     PokemonTypes.DEFAULT
   );
   const [isMinimised, setIsinimised] = useState<boolean>(false);
+
+
+  const parentPokemonViewerDiv = useRef<HTMLDivElement>(null);
+  const pokemonViewerDiv = useRef<HTMLDivElement>(null);
+  const siblingPokemonViewerDiv = useRef<HTMLDivElement>(null);
   const descriptionRef = useRef<HTMLDivElement>(null);
   const genderRef = useRef<HTMLDivElement>(null);
 
@@ -53,7 +62,6 @@ const DetailsRenderer: React.FC<DetailsProps> = function ({
       const width =
         siblingPokemonViewerDiv.current.getBoundingClientRect().width;
       setParentHeight(height1 + height2 - 10 + 0.06 * width);
-      console.log(`total height: ${height1 + height2} \t white" ${height2}`);
     }
   }, []); //updatesetMinimised whenever carousel button is clicked
 
@@ -63,9 +71,6 @@ const DetailsRenderer: React.FC<DetailsProps> = function ({
     } else {
       setIsinimised(false);
     }
-    console.log(
-      `parentHeight: ${parentEleHeight} \t minHeight:${minParentHeight}  `
-    );
   }, []);
   
   
@@ -100,10 +105,9 @@ const DetailsRenderer: React.FC<DetailsProps> = function ({
 
   return (
     <div
-      className="relative details-renderer w-poke-viewer  rounded-xl"
+      className="relative details-renderer w-poke-viewer  rounded-xl  "
       style={{
         backgroundColor: primaryColour,
-        height: `${Math.ceil(parentHeight)}px`,
       }}
       ref={parentPokemonViewerDiv}
     >
