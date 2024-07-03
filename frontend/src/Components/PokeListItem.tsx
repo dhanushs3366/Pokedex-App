@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { backend } from "../../wailsjs/go/models";
 import { GetPokemonDetails } from "../../wailsjs/go/main/App";
+import { getPrimaryColour } from "../utils/Colour";
+import PokemonTypes from "../enums/PokemonTypes";
 
 interface PokeListItemProps {
   ID: number;
@@ -31,11 +33,11 @@ const PokeListItem: React.FC<PokeListItemProps> = function ({ ID }) {
     navigate(url)
   };
 
-
+  const primaryColour=getPrimaryColour(pokemonDetail.types[0].toUpperCase() as PokemonTypes)
   return (
     <div className="w-full h-auto hover:cursor-pointer hover:shadow-xl border-gray-700 border-2 rounded-2xl" onClick={()=>{
         redirect(pokemonDetail.id)
-    }}>
+    }} style={{border:`2px solid ${primaryColour}`}}>
       <div className="relative w-full h-auto  flex justify-normal gap-1">
         {/* pokemon image goes here */}
         <img
@@ -71,7 +73,6 @@ const PokeListItem: React.FC<PokeListItemProps> = function ({ ID }) {
           const genderRatio = gender
             .split(":")
             .map((ratio) => Math.ceil(parseFloat(ratio)));
-          console.log(genderRatio);
           return (
             <div
               className="male bg-blue-700 h-1 rounded-l-full"

@@ -52,7 +52,7 @@ const PokemonViewer: React.FC<PokemonViewerProps> = ({
       <div className="img absolute w-full h-full z-30 flex justify-center  items-end pb-3 pl-3">
         <img
           src={imgSrc}
-          className="absolute   w-[40%] h-auto"
+          className="absolute   w-[40%] h-auto "
           alt=""
         />
         {/* if u change anything here change PokeGuess.tsx under the this component usage, using unmasked image as a cover there both need to have same position to overlap correctly */}

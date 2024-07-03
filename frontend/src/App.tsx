@@ -21,7 +21,7 @@ function App() {
           <Route element={<PokeUpload />} path="/upload" />
           <Route element={<PokeScan />} path="/scan" />
           <Route element={<PokeGuess />} path="/guess" />
-          <Route element={<PokeList items={GetAllPokemonIDs()}/>} path="/temp" />
+          <Route element={<PokeList items={GetAllPokemonIDs()}/>} path="/view" />
           <Route element={<DetailsRenderer />} path="/view/:id" />
         </Routes>
       </div>

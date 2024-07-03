@@ -138,7 +138,7 @@ function setPrimaryColour(primaryColour:PrimaryColour){
           <div className="img absolute w-full h-full z-30 flex justify-center  items-end pb-3 pl-3">
             <img
               src={imgSrc}
-              className="absolute   w-auto h-[40%] top-[39%]"
+              className="absolute   w-auto h-[40%] top-[39%] bottom-[19%]"
               alt=""
             />
             {/* not using pokemonviewer component cuz the fading header will overlap which causes less fading so i just copy pasted the image to overcome that */}
