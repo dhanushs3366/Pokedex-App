@@ -20,6 +20,6 @@ export function Greet(arg1:string):Promise<string>;
 
 export function PlayTTS():Promise<string>;
 
-export function TTS(arg1:string):Promise<boolean>;
+export function TTS(arg1:string):Promise<string>;
 
 export function TakePic():Promise<string>;

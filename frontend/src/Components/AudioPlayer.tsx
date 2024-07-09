@@ -9,7 +9,6 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({ audioSrc }) => {
     const handleSubmit=async function(audioSrc:string){
         const error=await PlayTTS()
         if(error!==""){
-            console.log(`Error:${error}`)
         }
     }
     return (

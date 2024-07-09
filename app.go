@@ -87,16 +87,19 @@ func (a *App) TakePic() string {
 	return string(output)
 }
 
-func (a *App) TTS(pokemonName string) bool {
+func (a *App) TTS(pokemonName string) string {
 	client := &backend.Api{Client: &http.Client{}}
 
 	text, err := backend.GetPokemonDescription(pokemonName)
 	if err != nil {
-		return false
+		return err.Error()
 	}
 
 	err = client.GetPokedexVoice(text)
-	return err == nil
+	if err != nil {
+		return err.Error()
+	}
+	return ""
 }
 
 func (a *App) GetPokemonNameForGuess(id int) string {

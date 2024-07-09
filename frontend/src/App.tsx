@@ -21,8 +21,10 @@ function App() {
           <Route element={<PokeUpload />} path="/upload" />
           <Route element={<PokeScan />} path="/scan" />
           <Route element={<PokeGuess />} path="/guess" />
-          <Route element={<PokeList items={GetAllPokemonIDs()}/>} path="/view" />
+
+          <Route element={<Temp />} path="/temp" />
           <Route element={<DetailsRenderer />} path="/view/:id" />
+          <Route element={<PokeList items={GetAllPokemonIDs()}/>} path="/view" />
         </Routes>
       </div>
     </HashRouter>

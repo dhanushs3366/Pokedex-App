@@ -1,5 +1,5 @@
-import { useParams } from "react-router-dom";
-import { GetPokemonDetails, GetPokemonTypes } from "../../wailsjs/go/main/App";
+import { useLocation, useParams } from "react-router-dom";
+import { GetPokemonDetails, GetPokemonTypes, PlayTTS } from "../../wailsjs/go/main/App";
 import { backend } from "../../wailsjs/go/models";
 import PokemonTypes from "../enums/PokemonTypes";
 import PrimaryColour from "../enums/PrimaryColour";
@@ -19,7 +19,11 @@ const DetailsRenderer: React.FC<DetailsProps> = function ({
 }) {
   const params = useParams<{ id: string }>();
 
-  // Convert the URL parameter to a number if present
+
+  const location=useLocation()
+  
+
+  
   const id = ID ?? parseInt(params.id || '', 10);
 
   const [pokemonID,setPokemonID]=useState<number>(id)
@@ -34,6 +38,7 @@ const DetailsRenderer: React.FC<DetailsProps> = function ({
   );
   const [isMinimised, setIsinimised] = useState<boolean>(false);
 
+  
 
   const parentPokemonViewerDiv = useRef<HTMLDivElement>(null);
   const pokemonViewerDiv = useRef<HTMLDivElement>(null);
@@ -54,6 +59,10 @@ const DetailsRenderer: React.FC<DetailsProps> = function ({
     fetchData();
   }, [pokemonID]);
 
+  useEffect(()=>{
+    
+  },[])
+
   useEffect(() => {
     if (pokemonViewerDiv.current && siblingPokemonViewerDiv.current) {
       const height1 = pokemonViewerDiv.current.getBoundingClientRect().height;
@@ -63,14 +72,21 @@ const DetailsRenderer: React.FC<DetailsProps> = function ({
         siblingPokemonViewerDiv.current.getBoundingClientRect().width;
       setParentHeight(height1 + height2 - 10 + 0.06 * width);
     }
-  }, []); //updatesetMinimised whenever carousel button is clicked
-
-  useEffect(() => {
+    const playAudio=async function(){
+      const result= await PlayTTS()
+    }
+    if(location.state && location.state.from==="/upload"){
+      playAudio()
+    }
     if (parentEleHeight && parentEleHeight < minParentHeight) {
       setIsinimised(true);
     } else {
       setIsinimised(false);
     }
+  }, []); //updatesetMinimised whenever carousel button is clicked
+
+  useEffect(() => {
+   
   }, []);
   
   

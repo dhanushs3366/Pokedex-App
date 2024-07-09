@@ -66,6 +66,17 @@
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-  }
+}
   
+@keyframes poke-ball-loading {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
 
+.poke-ball-loading{
+    animation: poke-ball-loading 1s ease-in-out infinite ;
+}

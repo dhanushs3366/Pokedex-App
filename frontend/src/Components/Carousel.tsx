@@ -31,7 +31,6 @@ const Carousel: React.FC<CarouselProps> = ({ items }) => {
 
     setStart(newStart);
     setEnd(newEnd);
-    console.log(`start: ${start}\t end:${newEnd}`)
   };
 
   const handleLeftClick = () => {

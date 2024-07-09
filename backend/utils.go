@@ -7,6 +7,7 @@ import (
 	"math/rand"
 	"os"
 	"os/exec"
+	"sync"
 	"time"
 )
 
@@ -36,6 +37,11 @@ type PokemonProfile struct {
 	Abilities   [][]string `json:"ability"`
 	GenderRatio string     `json:"gender"`
 }
+
+var (
+	mu        sync.Mutex
+	isPlaying bool
+)
 
 const JSON_PATH = "frontend/src/assets/pokemons/pokemon.json"
 const TTS_WAV_PATH = "frontend/src/assets/pokemons/output.wav"
@@ -135,6 +141,20 @@ func GetOptions(correctId int) ([]string, error) {
 }
 
 func PlayTTS() error {
+	mu.Lock()
+	if isPlaying {
+		mu.Unlock()
+		return nil
+	}
+	isPlaying = true
+	mu.Unlock()
+
+	defer func() {
+		mu.Lock()
+		isPlaying = false
+		mu.Unlock()
+	}()
+
 	cmd := exec.Command("gst-launch-1.0", "filesrc", "location="+TTS_WAV_PATH, "!", "wavparse", "!", "audioconvert", "!", "autoaudiosink")
 	if err := cmd.Run(); err != nil {
 		log.Fatal(err)

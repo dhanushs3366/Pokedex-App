@@ -1,24 +1,32 @@
 import { ReactNode, useEffect, useRef, useState } from "react";
 import { MdFileUpload } from "react-icons/md";
-import { GetPokemonDetails, GetPokemonId, GetPokemonName, TTS } from "../../wailsjs/go/main/App.js";
+import {
+  GetPokemonDetails,
+  GetPokemonId,
+  GetPokemonName,
+  TTS,
+} from "../../wailsjs/go/main/App.js";
 import { predict, imageToTensor } from "../predict.js";
 import AudioPlayer from "../Components/AudioPlayer.js";
 import { IconContext } from "react-icons";
 import PokemonViewer from "../Components/PokemonViewer.js";
 import PokemonTypes from "../enums/PokemonTypes.js";
 import { backend } from "../../wailsjs/go/models.js";
+import PokeballLoading from "../Components/Pokeball.loading.js";
+import { useNavigate } from "react-router-dom";
 function PokeUpload() {
   const IMG_TAG = "uploaded-img";
-  const MODEL_PATH="src/pokemon-model/model.json"
-  const LABELS_PATH="frontend/src/assets/pokemons/pokemon_labels.txt"
+  const MODEL_PATH = "src/pokemon-model/model.json";
+  const LABELS_PATH = "frontend/src/assets/pokemons/pokemon_labels.txt";
 
- 
+  const navigate=useNavigate()
+
   const [hasImageUploaded, setHasImageUploaded] = useState<boolean>(false);
-  const [gotResults,setGotResults]=useState<boolean>(false) //play  loading screen if (hasImageUploaded && !gotResults)
-  const [hasErrors,setHasErrors]=useState<boolean>(false)
-  
-  const fileRef = useRef<HTMLInputElement>(null);
+  const [pokemon, setPokemon] = useState<backend.PokemonDescription>(); //play  loading screen if (hasImageUploaded && !gotResults)
+  const [hasErrors, setHasErrors] = useState<boolean>(true);
 
+  const fileRef = useRef<HTMLInputElement>(null);
+  const pokeballRef = useRef<HTMLDivElement>(null);
 
   async function loadImageFromFile(
     destinationTag: string,
@@ -64,55 +72,83 @@ function PokeUpload() {
           setHasImageUploaded(true);
         })
         .catch((err) => {
-          console.log("Error: ", err);
         });
     }
   }
 
-  const getPokemonDetails=async function():Promise<backend.PokemonDescription | null>{
-
-    const pokemonImg=document.getElementById(IMG_TAG) as HTMLImageElement
-    const pokemonTensor=await imageToTensor(pokemonImg)
-    const result=await predict(pokemonTensor,MODEL_PATH)
-    const pokemonName=await GetPokemonName(result,LABELS_PATH)
-    const pokemonId=await GetPokemonId(pokemonName)
-    const pokemonDetails=await GetPokemonDetails(pokemonId)
-    if(pokemonDetails.id>0){
-      return pokemonDetails
+  function playLoadingAnimation() {
+    if (!pokeballRef.current) {
+      return;
     }
-    return null
+
+    pokeballRef.current.style.visibility = "visible";
+    pokeballRef.current.style.backgroundColor="black"
+    pokeballRef.current.classList.add("z-30")
   }
 
-  const submitPokemon = async function () {
-    const pokemon=await getPokemonDetails()
-    if(!pokemon){
+  function stopLoadingAnimation(){
+    if(!pokeballRef.current){
       return
     }
-    const ttsResult=await TTS(pokemon?.description)
-    console.log("tts result: ",ttsResult)
-    if(!ttsResult){
-      setHasErrors(true)
+
+    pokeballRef.current.style.visibility="hidden"
+    pokeballRef.current.classList.remove("z-30")
+  }
+
+  const getPokemonDetails =
+    async function (): Promise<backend.PokemonDescription | null> {
+      const pokemonImg = document.getElementById(IMG_TAG) as HTMLImageElement;
+      const pokemonTensor = await imageToTensor(pokemonImg);
+      const result = await predict(pokemonTensor, MODEL_PATH);
+      const pokemonName = await GetPokemonName(result, LABELS_PATH);
+      const pokemonId = await GetPokemonId(pokemonName);
+      const pokemonDetails = await GetPokemonDetails(pokemonId);
+      if (pokemonDetails.id > 0) {
+        return pokemonDetails;
+      }
+      return null;
+    };
+
+  const submitPokemon = async function () {
+    const pokemon = await getPokemonDetails();
+    if (!pokemon) {
+      return;
     }
-    setGotResults(true)
+
+    setPokemon(pokemon)
+    const ttsErrors = await TTS(pokemon?.name);
+    
+    if (!ttsErrors) {
+      setHasErrors(false);
+    };
   };
 
   useEffect(()=>{
-    if(hasImageUploaded && !gotResults){
-      //play loading animation
-    }
-    else if(hasImageUploaded && gotResults && !hasErrors){
-      //stop loading animation reroute to the details page
-    }else if(hasImageUploaded && gotResults && hasErrors){
-      // stop the loading animation continue without the audio
-    }
+    stopLoadingAnimation();
   },[])
 
+  useEffect(() => {
+    if (hasImageUploaded && pokemon && pokemon.id>0 && !hasErrors) {
+      navigate(`/view/${pokemon.id}`,{state:{from:"/upload"}})
+    } else if (hasImageUploaded && pokemon && pokemon.id>0 && hasErrors) {
+      playLoadingAnimation()
+    }
+  }, [hasImageUploaded, pokemon, hasErrors]);
 
   return (
     <div className="relative PokeUpload rounded-xl ">
+      
       <div className="flex justify-center gap-3 mb-2">
+
+        {/* pokeball loading animation */}
+        <div className=" absolute  w-poke-viewer h-[250px] flex justify-center items-center ">
+          <div className="w-[30%] aspect-1 " ref={pokeballRef}>
+            <PokeballLoading />
+          </div>
+        </div>
+
         <div
-          className="container w-poke-viewer h-[250px] hover:cursor-pointer hover:shadow-lg "
+          className="relative container w-poke-viewer h-[250px] hover:cursor-pointer hover:shadow-lg "
           onClick={fileUpload}
           style={{
             visibility: hasImageUploaded ? "hidden" : "visible",
@@ -137,10 +173,14 @@ function PokeUpload() {
             src=""
             alt=""
             id={`${IMG_TAG}`}
-            className="max-h-full max-w-full object-contain"
+            className="w-full h-full object-cover"
           />
         </div>
+
+        
       </div>
+
+
       <div
         className=" w-full flex justify-between gap-3 "
         style={{
@@ -152,18 +192,23 @@ function PokeUpload() {
           className="bg-red-400 text-white rounded-lg hover:shadow-lg  p-2"
           onClick={() => {
             setHasImageUploaded(false);
-            fileUpload()
+            stopLoadingAnimation()
+            fileUpload();
           }}
         >
           Retake
         </button>
         <button
           className="bg-green-400 text-white rounded-lg hover:shadow-lg  p-2"
-          onClick={submitPokemon}
+          onClick={()=>{
+            submitPokemon()
+          }}
         >
           Submit
         </button>
       </div>
+
+     
     </div>
   );
 }

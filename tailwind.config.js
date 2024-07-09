@@ -14,6 +14,15 @@ module.exports = {
         "pokemon-details-card-h":"533px",
         "pokemon-img":"150px"
       },
+      screens:{
+        "2xs":"150px"
+      },
+      borderWidth: {
+        '1p': '1px',
+        '2p': '2px',
+        '3p': '3px',
+        '4p': '4px',
+      },
       scale: {
         104: "1.04",
       },
@@ -44,5 +53,7 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/aspect-ratio'),
+  ],
 };
